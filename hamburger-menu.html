@@ -68,6 +68,14 @@ a { color: crimson; }
 	right: 0;
 }
 
+h1 { counter-reset: chapter; }
+body { counter-reset: paragraph;}
+h2 { counter-reset: section; }
+
+div#contents.parCon * h2:not( #preamble-and-nine-guiding-principles )::before { counter-increment: chapter; content: 'Chapter ' counter( chapter ) ': '; }
+div.parCon * h3::before { counter-increment: section; content: 'Section ' counter( chapter ) '.' counter( section ); }
+#contents.parCon * p::before { counter-increment: paragraph; content: '[' counter( paragraph ) '] '; }
+
 @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
@@ -84,14 +92,15 @@ a { color: crimson; }
 	<a href='' >Home</a>
 	<a href=#notes/2017-07-01-notes-of-meeting.md >Notes 2017-07-01</a>
 	<a href=#links.md >Links</a>
-	<a href=# >Contact</a>
+	<a href=#egypt-about.md >Constitution About</a>
+	<a href=#egypt-parallel-constitution.md >Constitution</a>
 
 </div>
 
 
 <div id=main >
 
-	<div id=contents >
+	<div id=contents class=parCon >
 		<h2 ><a href='' >Hamburger Slide Menu Example</a></h2>
 		<p>Click on the element to open the side navigation menu, and push this content to the right.</p>
 		<p><a href=https://www.w3schools.com/howto/howto_js_off-canvas.asp>w3schools > off-canvas</a></p>
@@ -134,17 +143,23 @@ a { color: crimson; }
 
 		var converter, url, xhr;
 
-		showdown.setFlavor('github');
+		showdown.setFlavor( 'github' );
 		converter = new showdown.Converter();
 
+		
+		
 		url = location.hash.slice( 1 );
 
 		xhr = new XMLHttpRequest();
 		xhr.open( 'get', url, true );
-		xhr.onload = function() { contents.innerHTML = converter.makeHtml( xhr.responseText ); };
+		xhr.onload = function() { 
+			contents.className = url === 'egypt-parallel-constitution.md' ? 'parCon' : '';
+			contents.innerHTML = converter.makeHtml( xhr.responseText ); 
+		};
 		xhr.send( null );
 
 		document.title = url.split( '/' ).pop();
+
 
 	}
 

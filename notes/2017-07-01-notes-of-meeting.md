@@ -75,9 +75,9 @@ General agreement that there's no need to be a billionaire. Making numerous peop
 
 ## ParallelConstitution.wordpress.com
 
-Mohamed has added names of core contributors
+Mohamed has added names of core [contributors]( https://parallelconstitution.wordpress.com/about/contributors/ )
 
-Theo edited title on home page
+Theo edited title on home page:
 
 From: Parallel Constitution
 To: Egypt Parallel Constitution

@@ -64,13 +64,13 @@ We talked a lot about public and private rights.
 
 Theo just made this up: Any data that is public for one should be public for all. Any data that is private for one should be private for all.
 
-We will many more discussions on this topic
+We will have many more discussions on this topic. ;-)
 
 ### Monetization
 
-A fair amount of chat on this topic
+A fair amount of chat on this topic.
 
-General agreement that there's no need to be a billionaire, but making numerous people prosper is a better priority
+General agreement that there's no need to be a billionaire. Making numerous people prosper is a better priority.
 
 
 ## ParallelConstitution.wordpress.com

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang=en >
+<head>
+<title></title>
+<meta charset=utf-8 />
+<style>
+
+h1 { counter-reset: chapter; }
+body { counter-reset: paragraph;}
+h2 { counter-reset: section; }
+
+div.parCon h2:not( #preamble-and-nine-guiding-principles )::before { counter-increment: chapter; content: 'Chapter ' counter( chapter ) ': '; }
+div.parCon h3::before { counter-increment: section; content: 'Section ' counter( chapter ) '.' counter( section ); }
+div.parCon p::before { counter-increment: paragraph; content: '[' counter( paragraph ) '] '; }
+
+</style>
+</head>
+<body>
+<script src=https://cdn.rawgit.com/showdownjs/showdown/master/dist/showdown.min.js ></script>
+
+
+	<div id=contents class=parCon ></div>
+
+
+<script>
+
+	var url = 'egypt-parallel-constitution.md';
+
+	init();
+
+
+	function init() {
+
+		showdown.setFlavor( 'github' );
+		requestFile( url );
+
+	}
+
+
+	function requestFile( url ) {
+
+		var converter, xhr;
+
+		converter = new showdown.Converter();
+
+		xhr = new XMLHttpRequest();
+		xhr.open( 'get', url, true );
+		xhr.onload = function() { contents.innerHTML = converter.makeHtml( xhr.responseText ); };
+		xhr.send( null );
+
+	}
+
+</script>
+</body>
+</html>

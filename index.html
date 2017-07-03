@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang=en >
+<head>
+<meta charset=utf-8 >
 <html>
 <head>
 <style>
@@ -25,10 +28,10 @@ a { color: crimson; }
 }
 
 .sidenav a {
-	padding: 8px 0px 8px 25px;
+	padding: 0px 0px 0px 25px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #818181;
+/*	color: #818181; */
 	display: block;
 	transition: 0.3s;
 }
@@ -68,13 +71,15 @@ a { color: crimson; }
 	right: 0;
 }
 
+pre, blockquote { background-color: #eee; padding: 10px; }
+
 h1 { counter-reset: chapter; }
 body { counter-reset: paragraph;}
 h2 { counter-reset: section; }
 
-div#contents.parCon * h2:not( #preamble-and-nine-guiding-principles )::before { counter-increment: chapter; content: 'Chapter ' counter( chapter ) ': '; }
-div.parCon * h3::before { counter-increment: section; content: 'Section ' counter( chapter ) '.' counter( section ); }
-#contents.parCon * p::before { counter-increment: paragraph; content: '[' counter( paragraph ) '] '; }
+div.parCon h2:not( #preamble-and-nine-guiding-principles )::before { counter-increment: chapter; content: 'Chapter ' counter( chapter ) ': '; }
+div.parCon h3::before { counter-increment: section; content: 'Section ' counter( chapter ) '.' counter( section ); }
+div.parCon p::before { counter-increment: paragraph; content: '[' counter( paragraph ) '] '; }
 
 @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
@@ -82,38 +87,27 @@ div.parCon * h3::before { counter-increment: section; content: 'Section ' counte
 }
 
 </style>
+
 </head>
+
 <script src=https://cdn.rawgit.com/showdownjs/showdown/master/dist/showdown.min.js ></script>
+
 <body>
 
 
-<div id=menu class=sidenav >
-
-	<a href='' >Home</a>
-	<a href=#notes/2017-07-01-notes-of-meeting.md >Notes 2017-07-01</a>
-	<a href=#links.md >Links</a>
-	<a href=#egypt-about.md >Constitution About</a>
-	<a href=#egypt-parallel-constitution.md >Constitution</a>
-
-</div>
+	<div id=menu class=sidenav ></div>
 
 
-<div id=main >
+	<div id=main >
 
-	<div id=contents class=parCon >
-		<h2 ><a href='' >Hamburger Slide Menu Example</a></h2>
-		<p>Click on the element to open the side navigation menu, and push this content to the right.</p>
-		<p><a href=https://www.w3schools.com/howto/howto_js_off-canvas.asp>w3schools > off-canvas</a></p>
+		<div id=contents ></div>
+
 	</div>
 
-</div>
 
+	<div id=hamburger onclick=toggleNav(); > &#9776; slide</div>
 
-<div id=hamburger onclick=toggleNav(); >
-
-	&#9776; slide
-
-</div>
+<a href="https://github.com/parallel-constitution/parallel-constitution.github.io" ><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
 
 <script>
@@ -124,6 +118,8 @@ div.parCon * h3::before { counter-increment: section; content: 'Section ' counte
 
 	function init() {
 
+		showdown.setFlavor( 'github' );
+
 		if ( location.hash.match( '.md' ) ) {
 
 
@@ -133,33 +129,29 @@ div.parCon * h3::before { counter-increment: section; content: 'Section ' counte
 
 		}
 
+		requestFile( 'parallel-constitution-menu.md', menu );
+
 		onHashChange();
 
 		window.addEventListener( 'hashchange', onHashChange, false );
 
 		}
 
+
+
 	function onHashChange() {
 
-		var converter, url, xhr;
+		var converter;
 
-		showdown.setFlavor( 'github' );
 		converter = new showdown.Converter();
 
-		
-		
 		url = location.hash.slice( 1 );
 
-		xhr = new XMLHttpRequest();
-		xhr.open( 'get', url, true );
-		xhr.onload = function() { 
-			contents.className = url === 'egypt-parallel-constitution.md' ? 'parCon' : '';
-			contents.innerHTML = converter.makeHtml( xhr.responseText ); 
-		};
-		xhr.send( null );
+		contents.className = location.hash.includes( 'egypt-parallel-constitution.md' ) ? 'parCon' : '';
+
+		requestFile( url, contents );
 
 		document.title = url.split( '/' ).pop();
-
 
 	}
 
@@ -180,6 +172,25 @@ div.parCon * h3::before { counter-increment: section; content: 'Section ' counte
 			main.style.marginLeft = '250px';
 
 		}
+
+	}
+
+
+	function requestFile( url, target ) {
+
+		var converter, xhr;
+
+		converter = new showdown.Converter();
+
+		xhr = new XMLHttpRequest();
+		xhr.open( 'get', url, true );
+		xhr.onload = function() {
+
+			target.innerHTML = converter.makeHtml( xhr.responseText ); 
+
+		};
+
+		xhr.send( null );
 
 	}
 

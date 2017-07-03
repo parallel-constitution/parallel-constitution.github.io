@@ -2,18 +2,25 @@
 
 Happy with your current constitution? No? Well, you've come to the right(s) place
 
+_Update ~ 2017-07-03 ~ Very preliminary. Much more in the next day or two. May the Fourth be with you..._
+
+***
+
+_This FAQ will be its own page with links and text very soon._
+
 
 ## Rights FAQ
 
 ### What is a right?
 
+### What is a constitution?
 
 
-## Tech FAQ
+## Technical FAQ
 
 ### What is a Revision Control System (RCS)
 
-### Why is using an RCs beneficial
+### Why is using an RCS beneficial
 
 ### What is Git?
 

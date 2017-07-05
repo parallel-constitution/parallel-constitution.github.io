@@ -2,11 +2,11 @@
 ## [Parallel Constitution]( index.html )
 
 [Home]( #README.md )
-[Notes 2017-07-01]( #notes/2017-07-01-notes-of-meeting.md )
 [Links]( #links.md )
 [Constitution Read Me]( #egypt-parallel-constitution-readme.md )
 [Constitution]( #egypt-parallel-constitution.md )
-
+[FAQ]( #faq.md )
+[Notes 2017-07-01]( #notes/2017-07-01-notes-of-meeting.md )
 <!--
 * [Preamble and Nine Guiding Principles]( #egypt-parallel-constitution.md#preamble-and-nine-guiding-principles )
 * [1. Bill of Rights]( #egypt-parallel-constitution.md#bill-of-rights )

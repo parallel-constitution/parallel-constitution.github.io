@@ -4,39 +4,24 @@
 
 Happy with your current constitution? No? Well, you've come to the right(s) place
 
-_Update ~ 2017-07-03 ~ Very preliminary. Much more in the next day or two. May the Fourth be with you..._
 
 ***
 
-_This FAQ will be its own page with links and text very soon._
+
+_This space needs some text._
 
 
-## Rights FAQ
+## Change Log
 
-### What is a right?
+### 2017-07-04 ~ Theo
 
-### What is a constitution?
+* Added 'Edit this file' button with GitHub icon
+* Code cleanup
+* Add FAQ page, move test from read me, add text
+* Add links to links page
 
 
-## Technical FAQ
+### 2017-07-03 ~ Theo
 
-### What is a Revision Control System (RCS)
-
-### Why is using an RCS beneficial
-
-### What is Git?
-
-### Why is Git beneficial
-
-### What is GitHub?
-
-### Why is GitHub beneficial
-
-### What is forking?
-
-### what is a flat file system?
-
-### What are text and Markdown files?
-
-### What are some fast, easy and free ways to learn this stuff?
-
+* First commit
+* Very preliminary. Much more in the next day or two. May the Fourth be with you...

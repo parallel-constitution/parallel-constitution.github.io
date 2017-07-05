@@ -204,6 +204,6 @@ There are many ways, Here's one of current favorites:
 
 * [Wikipedia: freeCodeCamp]( https://en.wikipedia.org/wiki/FreeCodeCamp ) [web site: freeCodeCamp]( https://www.freecodecamp.org/ )
 
-_More in this question at a later date._
+_More on this question at a later date._
 
 

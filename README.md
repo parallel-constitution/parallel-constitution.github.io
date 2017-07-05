@@ -10,8 +10,29 @@ Happy with your current constitution? No? Well, you've come to the right(s) plac
 
 _This space needs some text._
 
+What problems are we trying to solve?
+
+What is:
+
+* our mission?
+	* A statement of a purpose or rationale, applicable now as well as in the future
+* our vision?
+	* a descriptive 'picture' of a desired future state or outcome
+
+
+## To-Do List
+
+* 2017-07-05 ~ Add automatic style sheet numbering to FAQ
+* 2017-07-05 ~ Add separate page to display constitution in un-numbereb Marldown format
 
 ## Change Log
+
+
+### 2017-07-05 ~ Theo
+
+* Add more FAQs and responses
+* Add text to read me
+
 
 ### 2017-07-04 ~ Theo
 

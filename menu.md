@@ -11,7 +11,7 @@
 
 ## [FAQ]( #faq.md )
 
-
+## [&#x1F5D7; Issues]( https://github.com/parallel-constitution/parallel-constitution.github.io/issues )
 <!--
 * [Preamble and Nine Guiding Principles]( #egypt-parallel-constitution.md#preamble-and-nine-guiding-principles )
 * [1. Bill of Rights]( #egypt-parallel-constitution.md#bill-of-rights )

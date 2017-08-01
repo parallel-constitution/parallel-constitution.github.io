@@ -1,5 +1,34 @@
 # FAQ
 
+## Mission FAQ
+
+People need help in coming to agreement. People forget to consider important aspects. Even though there's plenty of experience, people may not be able to access that experience.
+
+We want to help by providing.
+
+* Concise list of items to be considered
+* Examples for each item from across the entire existing political spectrum
+* Provide apps to help you navigate the range of possibilities
+
+
+## Strategy
+
+There are many, many thousands of constitutions, articles of agreements, charters and so on. Trying to catalog all these would take much time and effort.
+
+All of the above documents follow very similar patterns. The number of distinct items may only number in the hundreds or low thousands 
+ 
+Our strategy will be to start woth two or three efforts and identify the common elements. Once a basic list of components is identified, then a number of constitutions will be examined.
+
+As much as possible items in each constitution will be identified and cross-referenced to similar items in the basic lists. Unique items will be highlighted,
+
+Procedures will be established to determine whether these unique items should be added to the basic list or tagged as 'specials'.
+
+Ultimately there may be several hundred (more?) documents available. Every clause in the baic list will be linked to the equivalent cluse inthe various documents.
+
+It should be possible to crowdsource the addition of new documents.
+
+The proces of parsing a fresh document should be fairly straightfoward one the details of the basic list have been established. Such an effort may lend itself to AI.
+
 
 ## Rights FAQ
 
@@ -13,16 +42,33 @@ _Theo ~ 2017-07-04: I look forward to expanding this section and turning into a 
 
 
 
-### _What are [rights]( https://en.wikipedia.org/wiki/Rights "Wikipedia entry" ) ?_
+### _What are [rights]( https://en.wikipedia.org/wiki/Rights "Wikipedia entry" )?_
 
 > Rights are legal, social, or ethical principles of freedom or entitlement; that is, rights are the fundamental normative rules about what is allowed of people or owed to people, according to some legal system, social convention, or ethical theory
 
 
+#### _What are [Human Rights]( https://en.wikipedia.org/wiki/Human_rights )?_
+
+> Human rights are moral principles or norms that describe certain standards of human behaviour, and are regularly protected as legal rights in municipal and international law. They are commonly understood as inalienable fundamental rights "to which a person is inherently entitled simply because she or he is a human being," and which are "inherent in all human beings" regardless of their nation, location, language, religion, ethnic origin or any other status. They are applicable everywhere and at every time in the sense of being universal, and they are egalitarian in the sense of being the same for everyone. They are regarded as requiring empathy and the rule of law and imposing an obligation on persons to respect the human rights of others, and it is generally considered that they should not be taken away except as a result of due process based on specific circumstances; for example, human rights may include freedom from unlawful imprisonment, torture and execution.
+
+
+#### _What are [Fundamental rights]( https://en.wikipedia.org/wiki/Fundamental_rights )?_
+
+> * Right to self-determination - their political status and freely pursue their economic, social and cultural development.
+> * Right to liberty - No one shall be subjected to arbitrary arrest or detention
+> * Right to due process of law
+> * Right to freedom of movement
+> * Right to freedom of thought
+> * Right to freedom of religion
+> * Right to freedom of expression
+> * Right to peaceful assembly
+> * Right to freedom of association
+
+* https://en.wikipedia.org/wiki/Special:WhatLinksHere/Fundamental_rights
 
 ### _What is the [rule of law]( https://en.wikipedia.org/wiki/Rule_of_law "Wikipedia entry" )?_
 
 > The rule of law is the legal principle that law should govern a nation, as opposed to being governed by decisions of individual government officials. It primarily refers to the influence and authority of law within society, particularly as a constraint upon behaviour, including behaviour of government officials.
-
 
 
 

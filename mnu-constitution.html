@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang = "en" >
+<head>
+<meta charset = "utf-8" >
+<meta name = description content = "Basic HTML template" >
+<meta name = keywords content = "JavaScript,GitHub,FOSS,3D,STEM" >
+<meta name = date content = "2017-08-04" >
+<title>Menu Constitution</title>
+<style>
+
+	body { font: 12pt monospace; margin: 0 auto; max-width: 800px; }
+	a { color: crimson; text-decoration: none; }
+
+/*	#menu { margin: 0 20px; max-width: 500px; position: absolute; } */
+
+</style>
+</head>
+<body>
+
+	<div id = "menu" >
+		<div id = "header" ><h1><a id = "title" href = "" ></a></h1></div>
+		<div id = "contents" ></div>
+	</div>
+
+<script>
+
+	const b = '<br>';
+
+	init();
+
+	function init() {
+
+		let txt;
+
+
+		txt = 'lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?';
+		contents.innerHTML = 
+
+//			'<p><a href="" onclick=the-state></a></p>'
+
+		txt;
+
+		if ( parent.main && !parent.mainIframe ) {
+
+			title.innerHTML = '';
+
+			parent.location.hash = 'egypt-parallel-constitution.md';
+
+			parent.iframeMenu.style.height = document.body.scrollHeight + 'px';
+
+//			parent.mainContents
+
+			
+
+
+
+		} else {
+
+			title.innerHTML = document.title;
+
+		}
+
+		txt = parent.document.getElementById( 'foo' );
+
+		if ( txt ) {
+
+			txt.innerHTML += 
+//			parent.mainContents.style.cssText = 
+				'h1 { color: red; margin: 0}' +
+
+				'h1 { counter-reset: chapter; }' +
+				'body { font: 12pt monospace; counter-reset: paragraph; }' +
+				'h2 { counter-reset: section; }' +
+
+				'div.center h2:not( #preamble-and-nine-guiding-principles )::before { counter-increment: chapter; content: "Chapter " counter( chapter ) ": "; }' +
+				'div.center h3::before { counter-increment: section; content: "Section " counter( chapter ) "." counter( section ); }' +
+				'div.center p::before { counter-increment: paragraph; content: "[" counter( paragraph ) "] "; }' +
+
+			'';
+
+		}
+
+		parent.showdown.onload = function() {
+
+			headers = parent.mainContents.querySelectorAll( 'h2' );
+
+console.log( 'headers', headers );
+
+			txt = '<h4><a href=JavaScript:parent.mainContents.scrollIntoView(); >Egypt Parallel Constitution</a></h4>';
+			for ( var i = 0; i < headers.length; i++ ) {
+
+				txt += '<p><a href=JavaScript:; onclick=doIt("' + headers[i].id + '"); >' + headers[ i ].innerHTML + '</a></p>';
+
+			}
+
+			contents.innerHTML = txt;
+
+		}
+
+	}
+
+
+	function doIt( item ) {
+console.log( 'fff', item );
+		header = parent.document.getElementById( item );
+
+		header.scrollIntoView();
+
+	}
+
+
+
+</script>
+</body>
+</html>

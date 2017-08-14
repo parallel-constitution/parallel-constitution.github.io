@@ -3,7 +3,13 @@
 
 ## [Constitution Read Me]( #egypt-parallel-constitution-readme.md )
 
+<!--
 ## [Constitution]( #egypt-parallel-constitution.md )
+
+## [Constitution HTML]( #egypt-parallel-constitution.html )
+-->
+
+## [Constitution]( #menu-constitution.md )
 
 ## [FAQ]( #faq.md )
 

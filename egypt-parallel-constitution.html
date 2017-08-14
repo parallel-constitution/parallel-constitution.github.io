@@ -1,17 +1,19 @@
 <!doctype html>
 <html lang=en >
 <head>
-<title></title>
+<title>Egypt Parallel Constitution</title>
 <meta charset=utf-8 />
 <style>
 
 h1 { counter-reset: chapter; }
-body { counter-reset: paragraph;}
+body { font: 12pt monospace; counter-reset: paragraph; }
 h2 { counter-reset: section; }
 
 div.parCon h2:not( #preamble-and-nine-guiding-principles )::before { counter-increment: chapter; content: 'Chapter ' counter( chapter ) ': '; }
 div.parCon h3::before { counter-increment: section; content: 'Section ' counter( chapter ) '.' counter( section ); }
 div.parCon p::before { counter-increment: paragraph; content: '[' counter( paragraph ) '] '; }
+
+.parCon { border: 0px solid red; left: 0; margin: 0 auto; max-width: 800px; position: absolute; right: 0; }
 
 </style>
 </head>

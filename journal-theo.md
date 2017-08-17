@@ -1,13 +1,16 @@
 Theo's Journal
 ====
 
+### 2017-08-16
+
+* Add FAQ TOC menu and FAQ numbering
 
 ## 2017-08-01
 
-Added to rights faq and tarted mission & strategy
+Added to rights faq and started mission & strategy
 
 
-Off the top of my head 
+Off the top of my headL
 
 
 #### Freedoms
@@ -35,6 +38,10 @@ Example
 
 * There shall be elections every four years
 * The president shall serve for six years
+
+### Definitions
+
+
 
 
 ***

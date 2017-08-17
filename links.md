@@ -1,9 +1,16 @@
 # Links of Interest
 
+WordPress sites ~ WordPress is free and the code is open source
+
+## [Egypt Parallel Constitution AR]( https://parallelconstitutionar.wordpress.com )
+
+* Arabic version
+
 ## [Egypt Parallel Constitution]( https://parallelconstitution.wordpress.com )
-* A WordPress site
-	* WordPress is free and the code is open source
+
 * Documenting the activities, resources and output of the effort to draft an alternative constitution for Egypt during the Arab Spring of 2011
+
+***
 
 ## [Idemyx]( http://idemyx.com )
 
@@ -18,6 +25,9 @@
 
 
 ## Sources
+
+Sources are currently being worked on here: [Sources]( https://parallelconstitution.wordpress.com/about/sources/ )
+
 
 ### Constitutions
 

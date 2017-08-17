@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang = "en" >
 <head>
+
 <meta charset = "utf-8" >
 
 <!-- https://clicktorelease.com -->
@@ -9,10 +10,11 @@
 <!-- Mr.doob
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 -->
-<meta name=description content="File wrangler. Default index.html file. Opens HTML or Markdown files. Passes location.hash." >
-<meta name=keywords content="ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS" >
-<meta name=date content="2017-08-04" >
-<style id="foo" >
+<meta name = description content = "File wrangler. Default index.html file. Opens HTML or Markdown files. Passes location.hash." >
+<meta name = keywords content = "ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS" >
+<meta name=date content = "2017-08-16" >
+
+<style id = "foo" >
 
 /* items mostly in tag/class/id then alphabetical order */
 
@@ -25,16 +27,14 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 .center { border: 0px solid red; left: 0; margin: 0 auto; max-width: 800px; position: absolute; right: 0; }
 
-.ifr { border-width: 0; height: 100%; margin: 0; width: 100%; }
+.iframeMenu { border-width: 0; height: 100%; margin: 0; width: 100%; }
 
-.mainIframe { overflow: hidden; }
+.iframeMain { overflow: hidden; }
 
-/* .menu { height: 100%; overflow: auto; } */
-/*.menuSub h2, .menuSub h3, .menuSub h4, .menuSub p { margin: 10px 0 0 0; } */
+.menuSub { padding: 0 5px 0 15px; }
 .menuSub a { text-decoration: none; }
 .menuSub a:hover, .menuSub a:focus{ color: #f1f1f1; }
 
-/* .menu h2, .menu h3, .menu h4, .menu p, .menu iframe { color: #555; } */
 
 #butEditFile { 
 	background-color: #555; color: #fff; opacity: 0.5; padding: 8px; position: fixed; right: 20px; top: 20px; 
@@ -52,22 +52,17 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 #hamburger:hover { cursor: pointer; opacity: 1; }
 
+#ifrMain { border-width: 0; height: 100%; margin: 0; width: 100%; }
 
 #main { height: 100%; margin-left: 250px; transition: margin-left .5s; position: absolute; top: 0; width: calc(100% - 250px); }
 
-
 #menu {
 	background-color: lightgray; box-sizing: border-box; height: 100%; left: 0; overflow: auto;
-	padding: 0 5px 0 15px; position: fixed; top: 0; transition: 0.5s; width: 250px; z-index: 1;
+	position: fixed; top: 0; transition: 0.5s; width: 250px; z-index: 1;
 }
 
-/*
-#menuHead, #menuBody, #menuFoot { border: 0px red solid; margin: 0; /* overflow: auto; */ }
-*/
 
-
-
-@media screen and (max-height: 450px) {
+@media screen and ( max-height: 450px ) {
 	.menu {padding-top: 15px;}
 	.menu a {font-size: 18px;}
 }
@@ -144,7 +139,6 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 		showdown.onload = function() {};
 
-
 		requestFile( 'menu-head.md', menuHead );
 
 		requestFile( 'menu-body.md', menuBody );
@@ -169,7 +163,7 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 	function onHashChange() {
 
-		let url, target;
+		let url;
 
 		url = location.hash.slice( 1 );
 
@@ -186,7 +180,7 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 // Set issues as blog on home page
 //			url = 'view-github-issues.html';
-//			main.innerHTML = '<iframe id=mainIframe class=ifr src=' + url + ' ></iframe>';
+//			main.innerHTML = '<iframe id=iframeMain class=iframeReadMe src=' + url + ' ></iframe>';
 //			main.style.overflow = 'hidden';
 
 		} else if ( url.startsWith( 'menu' ) ) {
@@ -197,11 +191,11 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 		} else if ( url.startsWith( 'html' ) ) {
 
-			menu.innerHTML = '<iframe id=menuIframe class=ifr src=' + url + ' ></iframe>';
+			menu.innerHTML = '<iframe id=ifrMenu class=iframeMenu src=' + url + ' ></iframe>';
 
 		} else if ( url.endsWith( '.md' ) ) {
 
-			main.innerHTML = '<div id=mainContents class=center onupdate=console.log("bb",23); ></div>';
+			main.innerHTML = '<div id=mainContents class=center ></div>';
 
 			main.style.overflow = 'auto';
 
@@ -209,14 +203,14 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 		} else if ( url.includes( '.htm' ) ) {
 
-			main.innerHTML = '<iframe id=mainIframe class=ifr src=' + url + ' ></iframe>';
+			main.innerHTML = '<iframe id=ifrMain class=iframeMain src=' + url + ' ></iframe>';
 
 			main.style.overflow = 'hidden';
 
 		} else {
 
-			menuIframe.contentWindow.location.hash = url;
-			mainIframe.contentWindow.location.hash = url;
+			ifrMenu.contentWindow.location.hash = url;
+			ifrMain.contentWindow.location.hash = url;
 
 		}
 
@@ -226,19 +220,39 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 	function onWindowResize(){
 
-		const ifr = document.querySelector( 'iframe' );
+// iframes inside iframes have to take care of themselves
+
+		let iframes = document.getElementsByClassName( 'iframeReadMe' );
 
 		if ( window.innerWidth < 1000 ) {
 
 			butEditFile.style.display = 'none';
-			if ( ifr ) { ifr.style.display = 'none'; }
 			hamburger.innerHTML = '&#9776;';
+
+			for ( var i = 0; i < iframes.length; i++ ) {
+
+				if ( iframes[ i ].className === 'iframeReadMe' ) {
+
+					iframes[ i ].style.display = 'none';
+
+				}
+
+			}
 
 		} else {
 
 			butEditFile.style.display = '';
-			if ( ifr ) { ifr.style.display = ''; }
 			hamburger.innerHTML = '&#9776; slide';
+
+			for ( var i = 0; i < iframes.length; i++ ) {
+
+				if ( iframes[ i ].className === 'iframeReadMe' ) {
+
+					iframes[ i ].style.display = '';
+
+				}
+
+			}
 
 		}
 
@@ -290,7 +304,7 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 	}
 
-	
+
 
 	function requestFile( url, target ) {
 
@@ -304,10 +318,12 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 			target.innerHTML = converter.makeHtml( xhr.responseText );
 
-			showdown.onload();
 //			projectName = document.links[ 0 ].text;
+			showdown.onload();
+			onWindowResize();
 
-		}
+		};
+
 		xhr.send( null );
 
 	}

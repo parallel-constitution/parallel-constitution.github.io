@@ -11,7 +11,7 @@
 
 ## [Constitution]( #menu-constitution.md )
 
-## [FAQ]( #faq.md )
+## [FAQ]( #menu-faq.md )
 
 ## [&#x1F5D7; Issues]( https://github.com/parallel-constitution/parallel-constitution.github.io/issues )
 

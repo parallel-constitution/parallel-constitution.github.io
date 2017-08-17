@@ -319,7 +319,7 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 			target.innerHTML = converter.makeHtml( xhr.responseText );
 
 //			projectName = document.links[ 0 ].text;
-			showdown.onload();
+			onload();
 			onWindowResize();
 
 		};
@@ -327,6 +327,8 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 		xhr.send( null );
 
 	}
+
+	function onload() {}
 
 
 </script>

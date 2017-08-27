@@ -2,6 +2,27 @@
 
 ## Mission FAQ
 
+
+## What problems are we trying to solve?
+
+What is the difference between right and wrong? How do you tell the difference between good and evil?
+
+People have been asking these questions - and seeking answers for thousands of years. Th good new is that people have also been discussing, agreeing and recording response to these question for many thousands of years. 
+
+The difficult thing is that people of differing religious, philosophical, political, location and more have quite differing sets of beilefs.
+
+Thus what is good for one person may be evil for another,
+
+It would be nice if you could ask questions and receive good answers. But even if you concentrate on a tiny highly homogeneous community in a remote location you are still highly likely to be confronted by disparate views.
+
+Or if you survey a million people with a common set of question you are likely to receive different response based on wealth education and identity.
+
+So are right and wrong totally flexible or relative concepts?  Are no ways of establish acceptable judgments?
+
+Of course there are. There are constitutions, systems of laws and regulations in operation through out the world.
+
+***
+
 People need help in coming to agreement. People forget to consider important aspects. Even though there's plenty of experience, people may not be able to access that experience.
 
 We want to help by providing.
@@ -25,7 +46,7 @@ Procedures will be established to determine whether these unique items should be
 
 Ultimately there may be several hundred (more?) documents available. Every clause in the baic list will be linked to the equivalent cluse inthe various documents.
 
-It should be possible to crowdsource the addition of new documents.
+It should be possible to crowd source the addition of new documents.
 
 The proces of parsing a fresh document should be fairly straightfoward one the details of the basic list have been established. Such an effort may lend itself to AI.
 

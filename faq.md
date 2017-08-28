@@ -5,7 +5,7 @@
 
 ## What problems are we trying to solve?
 
-What is the difference between right and wrong? How do you tell the difference between good and evil?
+What is the difference between right and wrong? How do you tell the difference between good and evil? Are you positive or negative?
 
 People have been asking these questions - and seeking answers for thousands of years. Th good new is that people have also been discussing, agreeing and recording response to these question for many thousands of years. 
 

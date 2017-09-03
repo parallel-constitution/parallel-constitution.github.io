@@ -153,6 +153,8 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 			requestFile( url, divMenuContents );
 
+			if ( divSubMenu ) { divSubMenu.innerHTML = ''; }
+
 		} else if ( app.endsWith( '.md' ) ) {
 
 			divContentsContainer.innerHTML = '<div id = "divContents" class = "contents" src=' + url + ' ></div>';
@@ -160,6 +162,8 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 			requestFile( url, divContents );
 
 			divContentsContainer.style.overflow = 'auto';
+
+			if ( parent.divSubMenu ) { divSubMenu.innerHTML = ''; }
 
 		} else if ( app.includes( '.htm' ) ) {
 

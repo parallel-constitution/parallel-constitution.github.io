@@ -120,7 +120,7 @@ _Theo ~ 2017-07-04: I look forward to expanding this section and turning into a 
 * https://en.wikipedia.org/wiki/Special:WhatLinksHere/Fundamental_rights
 
 
-## _What is [self determination]( self-determination )?_
+### _What is [self determination]( self-determination )?_
 
 > The right of people to self-determination is a cardinal principle in modern international law (commonly regarded as a jus cogens rule), binding, as such, on the United Nations as authoritative interpretation of the Charter’s norms.[1][2] It states that a people, based on respect for the principle of equal rights and fair equality of opportunity, have the right to freely choose their sovereignty and international political status with no interference
 
@@ -390,3 +390,11 @@ There are many ways, Here's one of current favorites:
 _More on this question at a later date._
 
 
+## Organization FAQ
+
+
+### _What is the mission for the way we are organized?_
+
+The goal of this endeavor is to help small groups of people to accomplish amazing goal or projects.
+
+The methods to achieve this purpose should be 1. accessible, 2. useful and 3. delightful.

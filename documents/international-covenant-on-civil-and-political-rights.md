@@ -1,4 +1,4 @@
-International Covenant on Civil and Political Rights
+# International Covenant on Civil and Political Rights
 
 Adopted and opened for signature, ratification and accession by General Assembly resolution 2200A (XXI) of 16 December 1966
 entry into force 23 March 1976, in accordance with Article 49
@@ -18,9 +18,9 @@ Realizing that the individual, having duties to other individuals and to the com
 
 Agree upon the following articles:
 
-PART I
+## PART I
 
-Article 1
+### Article 1
 
 1. All peoples have the right of self-determination. By virtue of that right they freely determine their political status and freely pursue their economic, social and cultural development.
 
@@ -28,9 +28,9 @@ Article 1
 
 3. The States Parties to the present Covenant, including those having responsibility for the administration of Non-Self-Governing and Trust Territories, shall promote the realization of the right of self-determination, and shall respect that right, in conformity with the provisions of the Charter of the United Nations.
 
-PART II
+## PART II
 
-Article 2
+### Article 2
 
 1. Each State Party to the present Covenant undertakes to respect and to ensure to all individuals within its territory and subject to its jurisdiction the rights recognized in the present Covenant, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.
 
@@ -44,11 +44,11 @@ Article 2
 
 (c) To ensure that the competent authorities shall enforce such remedies when granted.
 
-Article 3
+### Article 3
 
 The States Parties to the present Covenant undertake to ensure the equal right of men and women to the enjoyment of all civil and political rights set forth in the present Covenant.
 
-Article 4
+### Article 4
 
 1 . In time of public emergency which threatens the life of the nation and the existence of which is officially proclaimed, the States Parties to the present Covenant may take measures derogating from their obligations under the present Covenant to the extent strictly required by the exigencies of the situation, provided that such measures are not inconsistent with their other obligations under international law and do not involve discrimination solely on the ground of race, colour, sex, language, religion or social origin.
 
@@ -56,15 +56,15 @@ Article 4
 
 3. Any State Party to the present Covenant availing itself of the right of derogation shall immediately inform the other States Parties to the present Covenant, through the intermediary of the Secretary-General of the United Nations, of the provisions from which it has derogated and of the reasons by which it was actuated. A further communication shall be made, through the same intermediary, on the date on which it terminates such derogation.
 
-Article 5
+### Article 5
 
 1. Nothing in the present Covenant may be interpreted as implying for any State, group or person any right to engage in any activity or perform any act aimed at the destruction of any of the rights and freedoms recognized herein or at their limitation to a greater extent than is provided for in the present Covenant.
 
 2. There shall be no restriction upon or derogation from any of the fundamental human rights recognized or existing in any State Party to the present Covenant pursuant to law, conventions, regulations or custom on the pretext that the present Covenant does not recognize such rights or that it recognizes them to a lesser extent.
 
-PART III
+## PART III
 
-Article 6
+### Article 6
 
 1. Every human being has the inherent right to life. This right shall be protected by law. No one shall be arbitrarily deprived of his life.
 
@@ -78,11 +78,11 @@ Article 6
 
 6. Nothing in this article shall be invoked to delay or to prevent the abolition of capital punishment by any State Party to the present Covenant.
 
-Article 7
+### Article 7
 
 No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. In particular, no one shall be subjected without his free consent to medical or scientific experimentation.
 
-Article 8
+### Article 8
 
 1. No one shall be held in slavery; slavery and the slave-trade in all their forms shall be prohibited.
 
@@ -104,7 +104,7 @@ Article 8
 
 (iv) Any work or service which forms part of normal civil obligations.
 
-Article 9
+### Article 9
 
 1. Everyone has the right to liberty and security of person. No one shall be subjected to arbitrary arrest or detention. No one shall be deprived of his liberty except on such grounds and in accordance with such procedure as are established by law.
 
@@ -116,7 +116,7 @@ Article 9
 
 5. Anyone who has been the victim of unlawful arrest or detention shall have an enforceable right to compensation.
 
-Article 10
+### Article 10
 
 1. All persons deprived of their liberty shall be treated with humanity and with respect for the inherent dignity of the human person.
 
@@ -128,10 +128,10 @@ Article 10
 
 3. The penitentiary system shall comprise treatment of prisoners the essential aim of which shall be their reformation and social rehabilitation. Juvenile offenders shall be segregated from adults and be accorded treatment appropriate to their age and legal status.
 
-Article 11
+### Article 11
 
 No one shall be imprisoned merely on the ground of inability to fulfil a contractual obligation.
-Article 12
+### Article 12
 
 1. Everyone lawfully within the territory of a State shall, within that territory, have the right to liberty of movement and freedom to choose his residence.
 
@@ -141,11 +141,11 @@ Article 12
 
 4. No one shall be arbitrarily deprived of the right to enter his own country.
 
-Article 13
+### Article 13
 
 An alien lawfully in the territory of a State Party to the present Covenant may be expelled therefrom only in pursuance of a decision reached in accordance with law and shall, except where compelling reasons of national security otherwise require, be allowed to submit the reasons against his expulsion and to have his case reviewed by, and be represented for the purpose before, the competent authority or a person or persons especially designated by the competent authority.
 
-Article 14
+### Article 14
 
 1. All persons shall be equal before the courts and tribunals. In the determination of any criminal charge against him, or of his rights and obligations in a suit at law, everyone shall be entitled to a fair and public hearing by a competent, independent and impartial tribunal established by law. The press and the public may be excluded from all or part of a trial for reasons of morals, public order (ordre public) or national security in a democratic society, or when the interest of the private lives of the parties so requires, or to the extent strictly necessary in the opinion of the court in special circumstances where publicity would prejudice the interests of justice; but any judgement rendered in a criminal case or in a suit at law shall be made public except where the interest of juvenile persons otherwise requires or the proceedings concern matrimonial disputes or the guardianship of children.
 
@@ -172,23 +172,23 @@ Article 14
 
 7. No one shall be liable to be tried or punished again for an offence for which he has already been finally convicted or acquitted in accordance with the law and penal procedure of each country.
 
-Article 15
+### Article 15
 
 1 . No one shall be held guilty of any criminal offence on account of any act or omission which did not constitute a criminal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time when the criminal offence was committed. If, subsequent to the commission of the offence, provision is made by law for the imposition of the lighter penalty, the offender shall benefit thereby.
 
 2. Nothing in this article shall prejudice the trial and punishment of any person for any act or omission which, at the time when it was committed, was criminal according to the general principles of law recognized by the community of nations.
 
-Article 16
+### Article 16
 
 Everyone shall have the right to recognition everywhere as a person before the law.
 
-Article 17
+### Article 17
 
 1. No one shall be subjected to arbitrary or unlawful interference with his privacy, family, home or correspondence, nor to unlawful attacks on his honour and reputation.
 
 2. Everyone has the right to the protection of the law against such interference or attacks.
 
-Article 18
+### Article 18
 
 1. Everyone shall have the right to freedom of thought, conscience and religion. This right shall include freedom to have or to adopt a religion or belief of his choice, and freedom, either individually or in community with others and in public or private, to manifest his religion or belief in worship, observance, practice and teaching.
 
@@ -198,7 +198,7 @@ Article 18
 
 4. The States Parties to the present Covenant undertake to have respect for the liberty of parents and, when applicable, legal guardians to ensure the religious and moral education of their children in conformity with their own convictions.
 
-Article 19
+### Article 19
 
 1. Everyone shall have the right to hold opinions without interference.
 
@@ -210,17 +210,17 @@ Article 19
 
 (b) For the protection of national security or of public order (ordre public), or of public health or morals.
 
-Article 20
+### Article 20
 
 1. Any propaganda for war shall be prohibited by law.
 
 2. Any advocacy of national, racial or religious hatred that constitutes incitement to discrimination, hostility or violence shall be prohibited by law.
 
-Article 21
+### Article 21
 
 The right of peaceful assembly shall be recognized. No restrictions may be placed on the exercise of this right other than those imposed in conformity with the law and which are necessary in a democratic society in the interests of national security or public safety, public order (ordre public), the protection of public health or morals or the protection of the rights and freedoms of others.
 
-Article 22
+### Article 22
 
 1. Everyone shall have the right to freedom of association with others, including the right to form and join trade unions for the protection of his interests.
 
@@ -228,7 +228,7 @@ Article 22
 
 3. Nothing in this article shall authorize States Parties to the International Labour Organisation Convention of 1948 concerning Freedom of Association and Protection of the Right to Organize to take legislative measures which would prejudice, or to apply the law in such a manner as to prejudice, the guarantees provided for in that Convention.
 
-Article 23
+### Article 23
 
 1. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.
 
@@ -238,7 +238,7 @@ Article 23
 
 4. States Parties to the present Covenant shall take appropriate steps to ensure equality of rights and responsibilities of spouses as to marriage, during marriage and at its dissolution. In the case of dissolution, provision shall be made for the necessary protection of any children.
 
-Article 24
+### Article 24
 
 1. Every child shall have, without any discrimination as to race, colour, sex, language, religion, national or social origin, property or birth, the right to such measures of protection as are required by his status as a minor, on the part of his family, society and the State.
 
@@ -246,7 +246,7 @@ Article 24
 
 3. Every child has the right to acquire a nationality.
 
-Article 25
+### Article 25
 
 Every citizen shall have the right and the opportunity, without any of the distinctions mentioned in article 2 and without unreasonable restrictions:
 
@@ -256,17 +256,17 @@ Every citizen shall have the right and the opportunity, without any of the disti
 
 (c) To have access, on general terms of equality, to public service in his country.
 
-Article 26
+### Article 26
 
 All persons are equal before the law and are entitled without any discrimination to the equal protection of the law. In this respect, the law shall prohibit any discrimination and guarantee to all persons equal and effective protection against discrimination on any ground such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.
 
-Article 27
+### Article 27
 
 In those States in which ethnic, religious or linguistic minorities exist, persons belonging to such minorities shall not be denied the right, in community with the other members of their group, to enjoy their own culture, to profess and practise their own religion, or to use their own language.
 
-PART IV
+## PART IV
 
-Article 28
+### Article 28
 
 1. There shall be established a Human Rights Committee (hereafter referred to in the present Covenant as the Committee). It shall consist of eighteen members and shall carry out the functions hereinafter provided.
 
@@ -274,7 +274,7 @@ Article 28
 
 3. The members of the Committee shall be elected and shall serve in their personal capacity.
 
-Article 29
+### Article 29
 
 1. The members of the Committee shall be elected by secret ballot from a list of persons possessing the qualifications prescribed in article 28 and nominated for the purpose by the States Parties to the present Covenant.
 
@@ -282,7 +282,7 @@ Article 29
 
 3. A person shall be eligible for renomination.
 
-Article 30
+### Article 30
 
 1. The initial election shall be held no later than six months after the date of the entry into force of the present Covenant.
 
@@ -292,24 +292,24 @@ Article 30
 
 4. Elections of the members of the Committee shall be held at a meeting of the States Parties to the present Covenant convened by the Secretary General of the United Nations at the Headquarters of the United Nations. At that meeting, for which two thirds of the States Parties to the present Covenant shall constitute a quorum, the persons elected to the Committee shall be those nominees who obtain the largest number of votes and an absolute majority of the votes of the representatives of States Parties present and voting.
 
-Article 31
+### Article 31
 
 1. The Committee may not include more than one national of the same State.
 
 2. In the election of the Committee, consideration shall be given to equitable geographical distribution of membership and to the representation of the different forms of civilization and of the principal legal systems.
 
-Article 32
+### Article 32
 
 1. The members of the Committee shall be elected for a term of four years. They shall be eligible for re-election if renominated. However, the terms of nine of the members elected at the first election shall expire at the end of two years; immediately after the first election, the names of these nine members shall be chosen by lot by the Chairman of the meeting referred to in article 30, paragraph 4.
 2. Elections at the expiry of office shall be held in accordance with the preceding articles of this part of the present Covenant.
 
-Article 33
+### Article 33
 
 1. If, in the unanimous opinion of the other members, a member of the Committee has ceased to carry out his functions for any cause other than absence of a temporary character, the Chairman of the Committee shall notify the Secretary-General of the United Nations, who shall then declare the seat of that member to be vacant.
 
 2. In the event of the death or the resignation of a member of the Committee, the Chairman shall immediately notify the Secretary-General of the United Nations, who shall declare the seat vacant from the date of death or the date on which the resignation takes effect.
 
-Article 34
+### Article 34
 
 1. When a vacancy is declared in accordance with article 33 and if the term of office of the member to be replaced does not expire within six months of the declaration of the vacancy, the Secretary-General of the United Nations shall notify each of the States Parties to the present Covenant, which may within two months submit nominations in accordance with article 29 for the purpose of filling the vacancy.
 
@@ -317,15 +317,15 @@ Article 34
 
 3. A member of the Committee elected to fill a vacancy declared in accordance with article 33 shall hold office for the remainder of the term of the member who vacated the seat on the Committee under the provisions of that article.
 
-Article 35
+### Article 35
 
 The members of the Committee shall, with the approval of the General Assembly of the United Nations, receive emoluments from United Nations resources on such terms and conditions as the General Assembly may decide, having regard to the importance of the Committee's responsibilities.
 
-Article 36
+### Article 36
 
 The Secretary-General of the United Nations shall provide the necessary staff and facilities for the effective performance of the functions of the Committee under the present Covenant.
 
-Article 37
+### Article 37
 
 1. The Secretary-General of the United Nations shall convene the initial meeting of the Committee at the Headquarters of the United Nations.
 
@@ -333,11 +333,11 @@ Article 37
 
 3. The Committee shall normally meet at the Headquarters of the United Nations or at the United Nations Office at Geneva.
 
-Article 38
+### Article 38
 
 Every member of the Committee shall, before taking up his duties, make a solemn declaration in open committee that he will perform his functions impartially and conscientiously.
 
-Article 39
+### Article 39
 
 1. The Committee shall elect its officers for a term of two years. They may be re-elected.
 
@@ -347,7 +347,7 @@ Article 39
 
 (b) Decisions of the Committee shall be made by a majority vote of the members present.
 
-Article 40
+### Article 40
 
 1. The States Parties to the present Covenant undertake to submit reports on the measures they have adopted which give effect to the rights recognized herein and on the progress made in the enjoyment of those rights: (a) Within one year of the entry into force of the present Covenant for the States Parties concerned;
 
@@ -361,7 +361,7 @@ Article 40
 
 5. The States Parties to the present Covenant may submit to the Committee observations on any comments that may be made in accordance with paragraph 4 of this article.
 
-Article 41
+### Article 41
 
 1. A State Party to the present Covenant may at any time declare under this article that it recognizes the competence of the Committee to receive and consider communications to the effect that a State Party claims that another State Party is not fulfilling its obligations under the present Covenant. Communications under this article may be received and considered only if submitted by a State Party which has made a declaration recognizing in regard to itself the competence of the Committee. No communication shall be received by the Committee if it concerns a State Party which has not made such a declaration. Communications received under this article shall be dealt with in accordance with the following procedure:
 
@@ -387,7 +387,7 @@ Article 41
 
 2. The provisions of this article shall come into force when ten States Parties to the present Covenant have made declarations under paragraph I of this article. Such declarations shall be deposited by the States Parties with the Secretary-General of the United Nations, who shall transmit copies thereof to the other States Parties. A declaration may be withdrawn at any time by notification to the Secretary-General. Such a withdrawal shall not prejudice the consideration of any matter which is the subject of a communication already transmitted under this article; no further communication by any State Party shall be received after the notification of withdrawal of the declaration has been received by the Secretary-General, unless the State Party concerned has made a new declaration.
 
-Article 42
+### Article 42
 
 1.
 
@@ -421,31 +421,31 @@ Article 42
 
 10. The Secretary-General of the United Nations shall be empowered to pay the expenses of the members of the Commission, if necessary, before reimbursement by the States Parties concerned, in accordance with paragraph 9 of this article.
 
-Article 43
+### Article 43
 
 The members of the Committee, and of the ad hoc conciliation commissions which may be appointed under article 42, shall be entitled to the facilities, privileges and immunities of experts on mission for the United Nations as laid down in the relevant sections of the Convention on the Privileges and Immunities of the United Nations.
 
-Article 44
+### Article 44
 
 The provisions for the implementation of the present Covenant shall apply without prejudice to the procedures prescribed in the field of human rights by or under the constituent instruments and the conventions of the United Nations and of the specialized agencies and shall not prevent the States Parties to the present Covenant from having recourse to other procedures for settling a dispute in accordance with general or special international agreements in force between them.
 
-Article 45
+### Article 45
 
 The Committee shall submit to the General Assembly of the United Nations, through the Economic and Social Council, an annual report on its activities.
 
-PART V
+## PART V
 
-Article 46
+### Article 46
 
 Nothing in the present Covenant shall be interpreted as impairing the provisions of the Charter of the United Nations and of the constitutions of the specialized agencies which define the respective responsibilities of the various organs of the United Nations and of the specialized agencies in regard to the matters dealt with in the present Covenant.
 
-Article 47
+### Article 47
 
 Nothing in the present Covenant shall be interpreted as impairing the inherent right of all peoples to enjoy and utilize fully and freely their natural wealth and resources.
 
-PART VI
+## PART VI
 
-Article 48
+### Article 48
 
 1. The present Covenant is open for signature by any State Member of the United Nations or member of any of its specialized agencies, by any State Party to the Statute of the International Court of Justice, and by any other State which has been invited by the General Assembly of the United Nations to become a Party to the present Covenant.
 
@@ -457,23 +457,23 @@ Article 48
 
 5. The Secretary-General of the United Nations shall inform all States which have signed this Covenant or acceded to it of the deposit of each instrument of ratification or accession.
 
-Article 49
+### Article 49
 
 1. The present Covenant shall enter into force three months after the date of the deposit with the Secretary-General of the United Nations of the thirty-fifth instrument of ratification or instrument of accession.
 
 2. For each State ratifying the present Covenant or acceding to it after the deposit of the thirty-fifth instrument of ratification or instrument of accession, the present Covenant shall enter into force three months after the date of the deposit of its own instrument of ratification or instrument of accession.
 
-Article 50
+### Article 50
 
 The provisions of the present Covenant shall extend to all parts of federal States without any limitations or exceptions.
 
-Article 51
+### Article 51
 
 1. Any State Party to the present Covenant may propose an amendment and file it with the Secretary-General of the United Nations. The Secretary-General of the United Nations shall thereupon communicate any proposed amendments to the States Parties to the present Covenant with a request that they notify him whether they favour a conference of States Parties for the purpose of considering and voting upon the proposals. In the event that at least one third of the States Parties favours such a conference, the Secretary-General shall convene the conference under the auspices of the United Nations. Any amendment adopted by a majority of the States Parties present and voting at the conference shall be submitted to the General Assembly of the United Nations for approval.
 
 2. Amendments shall come into force when they have been approved by the General Assembly of the United Nations and accepted by a two-thirds majority of the States Parties to the present Covenant in accordance with their respective constitutional processes. 3. When amendments come into force, they shall be binding on those States Parties which have accepted them, other States Parties still being bound by the provisions of the present Covenant and any earlier amendment which they have accepted.
 
-Article 52
+### Article 52
 
 1. Irrespective of the notifications made under article 48, paragraph 5, the Secretary-General of the United Nations shall inform all States referred to in paragraph I of the same article of the following particulars:
 
@@ -481,7 +481,7 @@ Article 52
 
 (b) The date of the entry into force of the present Covenant under article 49 and the date of the entry into force of any amendments under article 51.
 
-Article 53
+### Article 53
 
 1. The present Covenant, of which the Chinese, English, French, Russian and Spanish texts are equally authentic, shall be deposited in the archives of the United Nations.
 

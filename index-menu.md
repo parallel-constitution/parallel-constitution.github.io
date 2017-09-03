@@ -19,9 +19,9 @@
 
 #### [Constitution Read Me]( #documents/egypt-parallel-constitution-readme.md )
 
-### [The Universal Declaration of Human Rights]( #documents/universal-declaration-human-rights.md )
+### [The Universal Declaration of Human Rights]( #plugins/mnu-udhr.html )
 
-### [International Covenant on Civil and Political Rights]( #documents/international-covenant-on-civil-and-political-rights.md )
+### [International Covenant on Civil and Political Rights]( #plugins/mnu-iccpr.html )
 
 ### [FAQ]( #plugins/mnu-faq.html )
 

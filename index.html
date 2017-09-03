@@ -1,66 +1,70 @@
 <!doctype html>
 <html lang = "en" >
 <head>
-
 <meta charset = "utf-8" >
-
-<!-- https://clicktorelease.com -->
-<meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no" >
-
-<!-- Mr.doob
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
--->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name = description content = "File wrangler. Default index.html file. Opens HTML or Markdown files. Passes location.hash." >
 <meta name = keywords content = "ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS" >
-<meta name=date content = "2017-08-16" >
-
+<meta name = date content = "2017-08-16" >
+<title></title>
 <style id = "foo" >
 
-/* items mostly in tag/class/id then alphabetical order */
+/* items in mostly in order of: tag/class/id then alphabetical */
 
-body, html { background-color: #fefefe; font: 12pt monospace; height: 100%; margin: 0; /* overflow: hidden; */ }
+
+html { --mnu-back-col: lightgray; --menu-width: 250px; }
+
+body, html { background-color: #fefefe; font: 12pt monospace; height: 100%; margin: 0; }
 
 a { color: crimson; }
 
 blockquote, pre { background-color: #eee; padding: 10px; }
 
+	button, input[type=button] { background-color: #ddd; border: none; color: #322; cursor: pointer; padding: 3px 20px; }
+	button:hover { background: #ccc; color: #fff }
 
-.center { border: 0px solid red; left: 0; margin: 0 auto; max-width: 800px; position: absolute; right: 0; }
+	input[type=range] { -webkit-appearance: none; -moz-appearance: none; background-color: #ddd; width: 160px; }
+	input[type=range]::-moz-range-thumb { background-color: #888; border-radius: 0; width: 10px; }
+	input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; background-color: #888; height: 20px; width: 10px; }
+
+.contents { border: 0px solid red; left: 0; margin: 0 auto; max-width: 800px; position: absolute; right: 0; }
+
+.contentsContainer { height: 100%; width: 100%; }
 
 .iframeMenu { border-width: 0; height: 100%; margin: 0; width: 100%; }
+.iframeContents { border-width: 0; height: 100%; margin: 0; width: 100%; }
 
-.iframeMain { overflow: hidden; }
-
-.menuSub { padding: 0 5px 0 15px; }
-.menuSub a { text-decoration: none; }
-.menuSub a:hover, .menuSub a:focus{ color: #f1f1f1; }
+.menuContainer { padding: 0 10px 0 15px; }
+.menuContainer a { text-decoration: none; }
+.menuContainer a:hover, .menuContainer a:focus{ color: #f1f1f1; }
 
 
-#butEditFile { 
-	background-color: #555; color: #fff; opacity: 0.5; padding: 8px; position: fixed; right: 20px; top: 20px; 
-	vertical-align: middle; z-index: 1; 
+#divContentsContainer { box-sizing: border-box; height: 100%; margin-left: var( --menu-width ); transition: margin-left .5s; 
+	position: absolute; top: 0; width: calc( 100% - var( --menu-width ) ); 
 }
 
-#butEditFile:hover { cursor: pointer; opacity: 1; }
-
-#butEditFile img { vertical-align: middle; width: 24px; }
-
-#hamburger {
-	background-color: #edd; cursor:pointer; font-size:30px;	left: 250px; line-height: 30px; margin: 0; opacity: 0.5;
-	padding: 5px 15px 8px 10px; position: fixed; top: 60px; transition: left .5s; z-index: 1;
+#divEditFile {
+	background-color: #555; color: #fff; opacity: 0.5; padding: 8px; position: fixed; right: 20px; top: 20px;
+	vertical-align: middle; z-index: 1;
 }
 
-#hamburger:hover { cursor: pointer; opacity: 1; }
+#divEditFile:hover { cursor: pointer; opacity: 1; }
 
-#ifrMain { border-width: 0; height: 100%; margin: 0; width: 100%; }
+#divEditFile img { vertical-align: middle; width: 24px; }
 
-#main { height: 100%; margin-left: 250px; transition: margin-left .5s; position: absolute; top: 0; width: calc(100% - 250px); }
-
-#menu {
-	background-color: lightgray; box-sizing: border-box; height: 100%; left: 0; overflow: auto;
-	position: fixed; top: 0; transition: 0.5s; width: 250px; z-index: 1;
+#divHamburger {
+	background-color: #edd; cursor:pointer; font-size:30px;	left: var( --menu-width ); line-height: 35px; margin: 0; opacity: 0.5;
+	padding: 5px 15px 8px 10px; position: fixed; top: 80px; transition: left .5s; z-index: 1;
 }
 
+#divHamburger:hover { cursor: pointer; opacity: 1; }
+
+#divMenu {
+	background-color: var( --mnu-back-col ); box-sizing: border-box; height: 100%; left: 0; overflow: auto;
+	position: fixed; top: 0; transition: 0.5s; width: var( --menu-width ); z-index: 1;
+}
+
+#divMenu p { margin: 0 }
 
 @media screen and ( max-height: 450px ) {
 	.menu {padding-top: 15px;}
@@ -68,60 +72,46 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 }
 
 
-/* specials for this project */
-
-.breakout { background-repeat:no-repeat; background-size:100% 100%; text-align:center; margin-left:-100%; margin-right:-100%; }
-
-/*
-
-// Put in Markdown file
-
-	<div class="breakout" style=background-image:url("https://lorempixel.com/1000/500");height:500px; >breakout image</div>
-*/
-
-.button { background-color: #bbb; border: 1px solid #eee; color: #fff; display: inline-block; padding: 8px; vertical-align: middle; }
-
-
 </style>
 
 </head>
 
+<body>
+<script src = "index.js" ></script>
 <script src = "https://cdn.rawgit.com/showdownjs/showdown/master/dist/showdown.min.js" ></script>
 
-<body>
+	<div id = "divMenu" class = "menu" >
 
-	<div id = "menu" >
+		<div id = "divMenuContainer" class = "menuContainer" >
 
-		<div id = "menuHead" class = "menuSub" ></div>
+			<div id = "divMenuContents" class = "menuContents" ></div>
 
-		<div id = "menuBody" class = "menuSub" ></div>
-
-		<div id = "menuFoot" class = "menuSub" ></div>
-
-	</div>
-
-	<div id = "main" >
-
-		<div id = "mainContents" class = "center" ></div>
+		</div>
 
 	</div>
 
 
-	<div id = "hamburger" onclick = "toggleNav();" > &#9776; slide</div>
+	<div id = "divContentsContainer" class = "contentsContainer" ></div>
 
 
-	<div id = "butEditFile" onclick = "onclickEditButton();" title = "Update this file on GitHub" ><img src = "https://status.github.com/images/invertocat.png" > Edit this file</div>
+	<div id = "divHamburger" onclick = "onClickSlideMenu();" > &#9776; slide</div>
 
-<!--
 
-	<div id = "butEditFile" onclick = "onclickEditButton();" title = "Update this file on Glitch" ><img src = "https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Flogo-day.svg" > Edit this file</div>
+	<div id = "divEditFile" onclick = "onclickEditButton();" title = "Update this file on GitHub" ><img src = "https://status.github.com/images/invertocat.png" > Edit this file</div>
 
--->
 
 <script>
 
+	var defaults = defaults || {};
 
-	let projectName = '';
+	const menuFile = defaults.menuFile ? defaults.menuFile : 'index-menu.md';
+	const menuWidth = defaults.menuWidth ? defaults.menuWidth : 250;
+	const menuPrefix = defaults.menuPrefix ? defaults.menuPrefix : 'menu';
+	const userGitHub = defaults.user ? defaults.user : '';
+	const folderGitHub = defaults.folder ? defaults.folder : '';
+	const fileGitHub = defaults.file ? defaults.file : 'README.md';
+
+	document.body.style.setProperty( '--menu-width', menuWidth + 'px' );
 
 
 	init();
@@ -129,33 +119,17 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 	function init() {
 
-		let arr = location.pathname.split( '/' );
-
-		let p = arr.pop();
-
-		projectName = arr.pop().replace( /\.github\.io/gi, '');
-
 		showdown.setFlavor( 'github' );
 
-		showdown.onload = function() {};
-
-		requestFile( 'menu-head.md', menuHead );
-
-		requestFile( 'menu-body.md', menuBody );
-
-		requestFile( 'menu-foot.md', menuFoot );
-
-		onHashChange();
-
-		window.addEventListener( 'hashchange', onHashChange, false );
-
-//		window.addEventListener( 'orientationchange', function() { window.location.reload(); } );
-
-		window.addEventListener( 'orientationchange', onWindowResize, false  );
+		requestFile( menuFile, divMenuContents );
 
 		window.addEventListener( 'resize', onWindowResize, false );
 
 		onWindowResize();
+
+		window.addEventListener( 'hashchange', onHashChange, false );
+
+		onHashChange();
 
 	}
 
@@ -163,54 +137,43 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 	function onHashChange() {
 
-		let url;
+		if ( !location.hash.length ) {
 
-		url = location.hash.slice( 1 );
+			location.hash = fileGitHub;
 
-//		document.title = url.split( '/' ).pop();
+			return;
 
-		title = url.split( '/' ).pop().replace( /-|.md|.html/g, ' ' );
+		}
 
-		document.title = title ? title + ' - ' + projectName : 'README - ' + projectName;
+		let url = location.hash.slice( 1 );
+		let app = location.hash.split( '#' )[ 1 ];
+//console.log( 'url', url );
 
-		if ( !url ) {
+		if ( url.startsWith( menuPrefix ) || url.startsWith ( menuFile ) ) {
 
-			url = 'README.md';
-			requestFile( url, mainContents );
+			requestFile( url, divMenuContents );
 
-// Set issues as blog on home page
-//			url = 'view-github-issues.html';
-//			main.innerHTML = '<iframe id=iframeMain class=iframeReadMe src=' + url + ' ></iframe>';
-//			main.style.overflow = 'hidden';
+		} else if ( app.endsWith( '.md' ) ) {
 
-		} else if ( url.startsWith( 'menu' ) ) {
+			divContentsContainer.innerHTML = '<div id = "divContents" class = "contents" src=' + url + ' ></div>';
 
-			menuBody.innerHTML = '<div id=menuContents class=menu ></div>';
+			requestFile( url, divContents );
 
-			requestFile( url, menuBody );
+			divContentsContainer.style.overflow = 'auto';
 
-		} else if ( url.startsWith( 'html' ) ) {
+		} else if ( app.includes( '.htm' ) ) {
 
-			menu.innerHTML = '<iframe id=ifrMenu class=iframeMenu src=' + url + ' ></iframe>';
+			divContentsContainer.innerHTML = '<iframe id=ifrContents class=iframeContents src=' + url + ' ></iframe>';
 
-		} else if ( url.endsWith( '.md' ) ) {
-
-			main.innerHTML = '<div id=mainContents class=center ></div>';
-
-			main.style.overflow = 'auto';
-
-			requestFile( url, mainContents );
-
-		} else if ( url.includes( '.htm' ) ) {
-
-			main.innerHTML = '<iframe id=ifrMain class=iframeMain src=' + url + ' ></iframe>';
-
-			main.style.overflow = 'hidden';
+			divContentsContainer.style.overflow = 'hidden';
 
 		} else {
 
-			ifrMenu.contentWindow.location.hash = url;
-			ifrMain.contentWindow.location.hash = url;
+// get to here with intent only - following don't exist at load time
+
+			if ( parent.ifrMenuSub ) { ifrMenuSub.contentWindow.location.hash = url; }
+			if ( parent.divContents ) { divContents.contentWindow.location.hash = url; }
+			ifrContents.contentWindow.location.hash = url;
 
 		}
 
@@ -220,49 +183,31 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 	function onWindowResize(){
 
-// iframes inside iframes have to take care of themselves
+		const iframes = document.getElementsByClassName( 'iframeReadMe' );
+		const display = window.innerWidth < 1350 ? 'none' : '';
 
-		let iframes = document.getElementsByClassName( 'iframeReadMe' );
+		for ( let i = 0; i < iframes.length; i++ ) {
 
-		if ( window.innerWidth < 1000 ) {
+			if ( iframes[ i ].className === 'iframeReadMe' ) {
 
-			butEditFile.style.display = 'none';
-			hamburger.innerHTML = '&#9776;';
-
-			for ( var i = 0; i < iframes.length; i++ ) {
-
-				if ( iframes[ i ].className === 'iframeReadMe' ) {
-
-					iframes[ i ].style.display = 'none';
-
-				}
-
-			}
-
-		} else {
-
-			butEditFile.style.display = '';
-			hamburger.innerHTML = '&#9776; slide';
-
-			for ( var i = 0; i < iframes.length; i++ ) {
-
-				if ( iframes[ i ].className === 'iframeReadMe' ) {
-
-					iframes[ i ].style.display = '';
-
-				}
+				iframes[ i ].style.display = display;
 
 			}
 
 		}
 
-		if ( !menu.style.width || menu.style.width === '250px' ) {
+		divEditFile.style.display = display;
+		divHamburger.innerHTML = display === 'none' ? '&#9776;' : '&#9776; slide';
+		divHamburger.style.top = display === 'none' ? '0' : '80px';
 
-			main.style.width = ( window.innerWidth - 250 ) + 'px';
 
-		} else { 
+		if ( !divMenu.style.width || divMenu.style.width === '250px' ) {
 
-			main.style.width = window.innerWidth + 'px';
+			divContentsContainer.style.width = ( window.clientWidth -  menuWidth ) + 'px';
+
+		} else {
+
+			divContentsContainer.style.width = window.clientWidth + 'px';
 
 		}
 
@@ -270,25 +215,15 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 
 
-	function toggleNav() {
+	function onClickSlideMenu() {
 
-		if ( !menu.style.width || menu.style.width === '250px' ) {
+		const visible = !divMenu.style.width || divMenu.style.width ===  menuWidth + 'px' ? false : true;
 
-			menu.style.width = '0';
-			hamburger.style.left = '0';
+		divMenu.style.width = visible ? menuWidth + 'px' : '0';
+		divHamburger.style.left = visible ? menuWidth + 'px' : '0';
 
-			main.style.marginLeft = '0';
-			main.style.width = window.innerWidth + 'px';
-
-		} else {
-
-			menu.style.width = '250px';
-			hamburger.style.left = '250px';
-
-			main.style.marginLeft = '250px';
-			main.style.width = ( window.innerWidth - 250 ) + 'px';
-
-		}
+		divContentsContainer.style.marginLeft = visible ? menuWidth + 'px' : '0';
+		divContentsContainer.style.width = visible ? ( window.innerWidth - menuWidth ) + 'px' : window.innerWidth + 'px';
 
 	}
 
@@ -296,11 +231,9 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 	function onclickEditButton(){
 
-//		window.open( 'https://glitch.com/edit/#!/' + projectName + '?path=' + location.hash.slice( 1 ) );
+		const file = location.hash.slice( 1 ) ? location.hash.slice( 1 ) : fileGitHub;
 
-		let file = location.hash.slice( 1 ) ? location.hash.slice( 1 ) : 'README.md';
-
- 		window.open( 'https://github.com/' + projectName + '/' + projectName + '.github.io/blob/master/' + file );
+ 		window.open( 'https://github.com/' + userGitHub + '/' + folderGitHub + '/' + file );
 
 	}
 
@@ -308,18 +241,20 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 
 	function requestFile( url, target ) {
 
-		let converter, xhr;
+		const converter = new showdown.Converter();
 
-		converter = new showdown.Converter();
-
-		xhr = new XMLHttpRequest();
+		const xhr = new XMLHttpRequest();
 		xhr.open( 'get', url, true );
 		xhr.onload = function() {
 
 			target.innerHTML = converter.makeHtml( xhr.responseText );
 
-//			projectName = document.links[ 0 ].text;
-			onload();
+			title = url.split( '/' ).pop().replace( /-|.md|.html/g, ' ' );
+
+			document.title = title + ' - ' + userGitHub;
+
+			window.scrollTo( 0, 0 );
+
 			onWindowResize();
 
 		};
@@ -327,8 +262,6 @@ blockquote, pre { background-color: #eee; padding: 10px; }
 		xhr.send( null );
 
 	}
-
-	function onload() {}
 
 
 </script>

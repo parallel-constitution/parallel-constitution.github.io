@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang = "en" >
+<head>
+<meta charset = "utf-8" >
+<meta name = "viewport" content= "width=device-width, initial-scale=1">
+<meta name = "description" content = "Basic HTML template" >
+<meta name = "keywords" content = "JavaScript,GitHub,FOSS,3D,STEM" >
+<meta name = "date" content = "2017-08-04" >
+<title></title>
+<style>
+
+h1 { counter-reset: chapter; }
+body { font: 12pt monospace; margin: 0 auto; max-width: 800px; }
+body { counter-reset: paragraph; }
+h2 { counter-reset: section; }
+
+h2:not( #preamble-and-nine-guiding-principles )::before { counter-increment: chapter; content: "Chapter " counter( chapter ) ": "; }
+h3::before { counter-increment: section; content: "Section " counter( chapter ) "." counter( section ); }
+p::before { counter-increment: paragraph; content: "[" counter( paragraph ) "] "; }
+
+
+</style>
+</head>
+<body>
+<script src = "https://cdn.rawgit.com/showdownjs/showdown/master/dist/showdown.min.js" ></script>
+
+	<div id = "menu" >
+		<div id = "header" ><h1><a id = "title" href = "" ></a></h1></div>
+		<div id = "divSubMenu" ></div>
+		<div id = "divContents" ></div>
+	</div>
+
+<script>
+
+	const b = '<br>';
+
+	init();
+
+	function init() {
+
+		showdown.setFlavor( 'github' );
+
+		let folder, menuLinks;
+
+		if ( window.top !== window.self ) { 
+
+			parent.divSubMenu.innerHTML = '';
+			parent.ifrMenu.src = '';
+			folder = '';
+
+		} else {
+
+			title.innerHTML = location.href.split( '/' ).pop().slice( 0, -5 ).replace( /-/g, ' ' );
+
+			folder = '../';
+
+		}
+
+		requestFile( '../documents/egypt-parallel-constitution.md', divContents );
+
+	}
+
+
+	function requestFile( url, target ) {
+
+		const converter = new showdown.Converter();
+
+		const xhr = new XMLHttpRequest();
+		xhr.open( 'get', url, true );
+		xhr.onload = function() {
+
+			html = converter.makeHtml( xhr.responseText );
+
+			target.innerHTML = html;
+
+			txt = url.split( '/' ).pop().replace( /-|.md|.html/g, ' ' );
+
+			title.innerHTML = txt
+			document.title = txt;
+
+//			window.scrollTo( 0, 0 );
+
+			headers = document.querySelectorAll( 'h2' ) 
+			console.log( '', headers );
+
+			menuLinks = '<h>Sections<h4>';
+
+			for ( var i = 0; i < headers.length; i++ ) {
+
+				header = headers[ i ]
+				menuLinks += header.textContent.link( '#' + header.id ) + b;
+
+			}
+
+			parent.divSubMenu.innerHTML = menuLinks;
+
+//			onWindowResize();
+
+		};
+
+		xhr.send( null );
+
+	}
+
+</script>
+</body>
+</html>

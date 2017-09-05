@@ -9,7 +9,7 @@ What is the difference between right and wrong? How do you tell the difference b
 
 People have been asking these questions - and seeking answers for thousands of years. 
 
-The difficult thing is that 
+Difficulties with finding the answers include:
 
 * Beliefs/heart/feelings. people of differing religious, philosophical, political, location and more have quite differing sets of beliefs. Thus what is good for one person may be evil for another,
 * Value/Quality. Because of phones, computers and the Internet we are exposed to more data which gives us more insights which in turn makes everything more complicated
@@ -17,20 +17,26 @@ The difficult thing is that
 
 The good new is that people have also been discussing, agreeing and recording response to the questions we tend to ask for many thousands of years. Even with all this good advice there are issues. 
 
-It would be nice if you could ask questions and receive good answers. But even if you concentrate on a tiny highly homogeneous community in a remote location you are still highly likely to be confronted by disparate views.
+* People do not Agree. It would be nice if you could ask questions and receive good answers. But even if you concentrate on a tiny highly homogeneous community in a remote location you are still highly likely to be confronted by disparate views.
+* People haves biases. if you survey a million people with a common set of question you are likely to receive different response based on wealth education and identity.
 
-Or if you survey a million people with a common set of question you are likely to receive different response based on wealth education and identity.
 
+### _How can we [stand on the shoulders of Giants]( https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants )?_
 
-#### Standing on the shoulders of Giants
-
-So are right and wrong totally flexible or relative concepts?  Are there no ways of establish acceptable judgments?
+So are right and wrong totally flexible or relative concepts?  Are there no ways of establishing acceptable judgments?
 
 Of course there are. There are constitutions, agreements, systems of laws and regulations in operation throughout the world that define what and is not acceptable behavior for a particular milieu.
 
+Almost all of these documents are based scholarly efforts that have citations and are well referenced. For the most part they are based on the collective agreement and consensus of large numbers of people. 
 
+These documents provide clear, considered and acceptable answers for many of the difficult question to life.
 
-### What is the overall strategy?
+The reason that they are not used enough
+
+* Difficult to access
+* Difficult to compare and contrast
+
+### _What is the overall strategy?_
 
 People need help in coming to agreement. People forget to consider important aspects. Even though there's plenty of experience, people may not be able to access that experience.
 
@@ -58,6 +64,7 @@ It should be possible to crowd source the addition of new documents.
 
 The process of parsing a fresh document should be fairly straight foward one the details of the basic list have been established. Such an effort may lend itself to AI.
 
+
 ### What patterns would we like to establish?
 
 The general format is an adaptation of the ideas developed in Alexander's _et al_ [A Pattern Language]( https://books.google.com/books?id=hwAHmktpk5IC&pg=PR10#v=onepage&q&f=false ) - as summarized on page 10.
@@ -70,13 +77,10 @@ patterns are descriptions of common problems and proposal for the solutions that
 #### Common responses to important questions should be readily available
 
 
-Almost all of these documents are based scholarly efforts that have citations and are well referenced. For the most part they are based on the collective agreement and consensus of large numbers of people. 
-
-
 #### Similar questions should be grouped so people may see patterns more clearly
 
 
-#### Answers/Responses to questions should be tagged by their various biases - right/left, rich/poor, devout atheist and so on (in much more detail )
+#### Answers/Responses to questions should be tagged by their various biases - right/left, rich/poor, devout/atheist and so on (in much more detail )
 
 
 #### Extra expenses, unintended outcomes and other surprises and success stories need to be linked to each question

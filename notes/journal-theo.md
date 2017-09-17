@@ -12,7 +12,7 @@ Theo's Journal
 ## 2017-09-17
 
 
-### Draft of of home page
+### Draft of a home page
 What is the difference between right and wrong? How do you tell the difference between good and evil? 
 
 _Having odd numbers is a more elegant writing style. What is is a good third sentence?_
@@ -26,9 +26,9 @@ There have been, are, and will be many suitable, just and good answers to these 
 Parallel Constitution is a place where you may find, compare and contrast the many different questions and answers. You may use this input to help you determine a good response for the questions of different eras, locations or social organizations.
 
 
-We may say that all the answers to the questions of good and evil contains elements of good and evil. And, on the whole, this is good.
+We may say that all the answers to the questions of good and evil contains elements of good and evil. And, on the whole, this is good. It would be sad if we all agreed on everything. 
 
-It would be sad if we all agreed on everything. Welcome to a place that agrees on disagreeing in the nicest way. Welcome to Parallel Constitution. 
+Welcome to a place that agrees on disagreeing in the nicest, smartest, most knowledgeable ways. Welcome to Parallel Constitution. 
 
 
 #### Examples

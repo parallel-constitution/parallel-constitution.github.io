@@ -15,29 +15,35 @@ Theo's Journal
 
 What is the difference between right and wrong? How do you tell the difference between good and evil? 
 
-_Haveing od numbers is more elegant. Whits is a good third sentence?_
+_Haveing odd numbers is more elegant. What is is a good third sentence?_
 
-How do you decide if you are _pro_ or _con_ on an issue:
-Are you positive or negative?
+* How do you decide if you are _pro_ or _con_ on an issue:
+*Are you positive or negative?
 
 
 There have been, are, and will be many suitable, just and good answers to these questions. Each answer is different. Even when answers appear to be identical, they differ because of the varying contents that gave rise to that answer in its particular time, place and _milieau_.
 
-Parallel Constitution is a place where you can find, compare and contrast the many different questions and answers. You may use this input to help you determine a good answer for questions of any era, location or social organization.
+Parallel Constitution is a place where you may find, compare and contrast the many different questions and answers. You may use this input to help you determine a good response for the questions of different eras, locations or social organizations.
+
+
+We may say that all the answers to the questions of good and evil contains elements of good and evil. And, on the whole, this is good.
+
+It would be sad if we all agreed on everything. Welcome to a place that agrees on disagreeing in the nicest way. Welcome to Parallel Constitution. 
+
 
 # Examples
 
- 
 
 The Universal Declaration of Human Rights
-Article 3. Everyone has the right to life, liberty and security of person.
+* Article 3. Everyone has the right to life, liberty and security of person.
 
 
 The Universal Declaration of Human Rights, 1976
-Article 6. Every human being has the inherent right to life
-Article 9. Everyone has the right to liberty and security of person
+* Article 6. Every human being has the inherent right to life
+* Article 9. Everyone has the right to liberty and security of person
 
-Section 1.3. Each individual has the right to life, freedom, and privacy in peace of mind and personal security
+Egypt Parallel Constitution
+* Section 1.3. Each individual has the right to life, freedom, and privacy in peace of mind and personal security
 
 
 

@@ -8,6 +8,39 @@ Theo's Journal
 ## Change Log
 
 
+
+2017-09-17
+
+
+
+What is the difference between right and wrong? How do you tell the difference between good and evil? 
+
+_Haveing od numbers is more elegant. Whits is a good third sentence?_
+
+How do you decide if you are _pro_ or _con_ on an issue:
+Are you positive or negative?
+
+
+There have been, are, and will be many suitable, just and good answers to these questions. Each answer is different. Even when answers appear to be identical, they differ because of the varying contents that gave rise to that answer in its particular time, place and _milieau_.
+
+Parallel Constitution is a place where you can find, compare and contrast the many different questions and answers. You may use this input to help you determine a good answer for questions of any era, location or social organization.
+
+# Examples
+
+ 
+
+The Universal Declaration of Human Rights
+Article 3. Everyone has the right to life, liberty and security of person.
+
+
+The Universal Declaration of Human Rights, 1976
+Article 6. Every human being has the inherent right to life
+Article 9. Everyone has the right to liberty and security of person
+
+Section 1.3. Each individual has the right to life, freedom, and privacy in peace of mind and personal security
+
+
+
 ### 2017-09-17
 
 * Add to FAQ 

@@ -8,6 +8,12 @@ Theo's Journal
 ## Change Log
 
 
+### 2017-09-17
+
+* Add to FAQ 
+* Fix Edit this page link
+* Add links to links page
+
 
 ### 2017-08-31
 

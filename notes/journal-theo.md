@@ -9,19 +9,19 @@ Theo's Journal
 
 
 
-2017-09-17
+## 2017-09-17
 
 
-
+### Draft of of home page
 What is the difference between right and wrong? How do you tell the difference between good and evil? 
 
-_Haveing odd numbers is more elegant. What is is a good third sentence?_
+_Having odd numbers is a more elegant writing style. What is is a good third sentence?_
 
 * How do you decide if you are _pro_ or _con_ on an issue:
-*Are you positive or negative?
+* Are you positive or negative?
 
 
-There have been, are, and will be many suitable, just and good answers to these questions. Each answer is different. Even when answers appear to be identical, they differ because of the varying contents that gave rise to that answer in its particular time, place and _milieau_.
+There have been, are, and will be many suitable, just and good answers to these questions. Every answer is different. Even when answers appear to be identical, they differ because of the varying context that gave rise to that answer in its particular time, place and _milieau_.
 
 Parallel Constitution is a place where you may find, compare and contrast the many different questions and answers. You may use this input to help you determine a good response for the questions of different eras, locations or social organizations.
 
@@ -31,10 +31,11 @@ We may say that all the answers to the questions of good and evil contains eleme
 It would be sad if we all agreed on everything. Welcome to a place that agrees on disagreeing in the nicest way. Welcome to Parallel Constitution. 
 
 
-# Examples
+#### Examples
 
+The strategy will be to list side-by-side equivalent sentences or phrases from multiple constitutions. Every sentence will indicate its source and date.
 
-The Universal Declaration of Human Rights
+The Universal Declaration of Human Rights, 1949
 * Article 3. Everyone has the right to life, liberty and security of person.
 
 
@@ -42,10 +43,14 @@ The Universal Declaration of Human Rights, 1976
 * Article 6. Every human being has the inherent right to life
 * Article 9. Everyone has the right to liberty and security of person
 
-Egypt Parallel Constitution
+
+Egypt Parallel Constitution, 2013
 * Section 1.3. Each individual has the right to life, freedom, and privacy in peace of mind and personal security
 
 
+
+
+***
 
 ### 2017-09-17
 

@@ -7,31 +7,31 @@
 
 What is the difference between right and wrong? How do you tell the difference between good and evil? Are you positive or negative?
 
-People have been asking these questions - and seeking answers for thousands of years. 
+People have been asking these questions - and seeking the answers for thousands of years. 
 
 Difficulties with finding the answers include:
 
-* Beliefs/heart/feelings. people of differing religious, philosophical, political, location and more have quite differing sets of beliefs. Thus what is good for one person may be evil for another,
-* Value/Quality. Because of phones, computers and the Internet we are exposed to more data which gives us more insights which in turn makes everything more complicated
-* Time. Because of improved scheduling, greater need to work harder for more money of faster advancement, we may have less time just to think things over,
+* **Beliefs/heart/feelings**. People of differing religious, philosophical, political, location and more have quite differing sets of beliefs. Thus what is good for one person may be evil for another,
+* **Value/Quality**. Because of phones, computers and the Internet we are exposed to more data which gives us more insights which in turn makes everything more complicated
+* **Time**. Because of improved scheduling, greater need to work harder for more money or faster advancement, we may have less time just to think things over
 
-The good new is that people have also been discussing, agreeing and recording response to the questions we tend to ask for many thousands of years. Even with all this good advice there are issues. 
+The good new is that people have also been discussing, agreeing and recording responses to the questions we tend to ask for many thousands of years. Yet even with all this good advice there are issues. 
 
-* People do not Agree. It would be nice if you could ask questions and receive good answers. But even if you concentrate on a tiny highly homogeneous community in a remote location you are still highly likely to be confronted by disparate views.
-* People haves biases. if you survey a million people with a common set of question you are likely to receive different response based on wealth education and identity.
+* **People do not always agree**. It would be nice if you could ask questions and receive good answers. But even if you concentrate on a tiny highly homogeneous community in a remote location you are still highly likely to be confronted by disparate views.
+* **People haves biases**. if you survey a million people with a common set of question you are likely to receive different response based on wealth education and identity.
 
 
 ### _How can we [stand on the shoulders of Giants]( https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants )?_
 
 So are right and wrong totally flexible or relative concepts?  Are there no ways of establishing acceptable judgments?
 
-Of course there are. There are constitutions, agreements, systems of laws and regulations in operation throughout the world that define what and is not acceptable behavior for a particular milieu.
+Of course there are. It's that these answers are not as easy as they should be to access - yet. There are constitutions, agreements, systems of laws and regulations in operation throughout the world that define what and is not acceptable behavior for a particular milieu.
 
 Almost all of these documents are based scholarly efforts that have citations and are well referenced. For the most part they are based on the collective agreement and consensus of large numbers of people. 
 
 These documents provide clear, considered and acceptable answers for many of the difficult question to life.
 
-The reason that they are not used enough
+The reason that this wisdom is not used enough
 
 * Difficult to access
 * Difficult to compare and contrast
@@ -40,13 +40,15 @@ The reason that they are not used enough
 
 People need help in coming to agreement. People forget to consider important aspects. Even though there's plenty of experience, people may not be able to access that experience.
 
-We want to help by providing.
+We want to help by providing:
 
 * List of items to be considered well catalogued so the search may be as concise as possible
 * Examples for each item from across the entire existing political spectrum of biases
 * Provide references and citations to outcomes
 * Provide apps to help you navigate the range of possibilities
 
+
+### _What will your strategy be?_
 
 There are many, many thousands of constitutions, articles of agreements, charters and so on. Trying to catalog all these would take much time and effort.
 
@@ -62,30 +64,26 @@ Ultimately there may be several hundred (more?) documents available. Every claus
 
 It should be possible to crowd source the addition of new documents.
 
-The process of parsing a fresh document should be fairly straight foward one the details of the basic list have been established. Such an effort may lend itself to AI.
+The process of parsing a fresh document should be fairly straight forward one the details of the basic list have been established. Such an effort may lend itself to AI.
 
 
-### What patterns would we like to establish?
+### _What patterns would we like to establish?_
 
-The general format is an adaptation of the ideas developed in Alexander's _et al_ [A Pattern Language]( https://books.google.com/books?id=hwAHmktpk5IC&pg=PR10#v=onepage&q&f=false ) - as summarized on page 10.
+The general format used here is an adaptation of the ideas developed in Alexander's _et al_ [A Pattern Language]( https://books.google.com/books?id=hwAHmktpk5IC&pg=PR10#v=onepage&q&f=false ) - as summarized on page 10.
 
 Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice.
 
 patterns are descriptions of common problems and proposal for the solutions that can be used repeatedly every time the problem is encountered and producing an different outcome.
 
 
-#### Common responses to important questions should be readily available
+### _What are some other issues that need to be considered?_
 
+* Common responses to important questions should be readily available
+* Similar questions should be grouped so people may see patterns more clearly
+* Answers/Responses to questions should be tagged by their various biases - right/left, rich/poor, devout/atheist and so on (in much more detail )
+* Extra expenses or savings, unintended outcomes and other surprises and success stories need to be linked to each question
 
-#### Similar questions should be grouped so people may see patterns more clearly
-
-
-#### Answers/Responses to questions should be tagged by their various biases - right/left, rich/poor, devout/atheist and so on (in much more detail )
-
-
-#### Extra expenses, unintended outcomes and other surprises and success stories need to be linked to each question
-
-
+***
 
 ## Rights FAQ
 
@@ -389,7 +387,8 @@ Online Markdown editors include
 
 There are many ways, Here's one of current favorites:
 
-* [Wikipedia: freeCodeCamp]( https://en.wikipedia.org/wiki/FreeCodeCamp ) [web site: freeCodeCamp]( https://www.freecodecamp.org/ )
+* [Wikipedia: freeCodeCamp]( https://en.wikipedia.org/wiki/FreeCodeCamp ) 
+* Web site: [freeCodeCamp]( https://www.freecodecamp.org/ )
 
 _More on this question at a later date._
 
@@ -401,4 +400,150 @@ _More on this question at a later date._
 
 The goal of this endeavor is to help small groups of people to accomplish amazing goal or projects.
 
-The methods to achieve this purpose should be 1. accessible, 2. useful and 3. delightful.
+The methods to achieve this purpose should be:
+
+1. accessible
+2. useful and 
+3. delightful
+
+
+### _What are some the typical things that happen in orgnizations that create distance people and productivity?_
+
+
+* Research data is lost.
+* People can't be found or are left off lists
+* Reference works cannot be legally copied
+* People are not in the same time zone
+* The distance between people is very great
+* Person A does not know what Person B is doing.
+* People need help completing projects.
+* Emails get lost.
+	* Email threads are inaccessible to non-recipients
+* Significant message threads from the past cannot be reconstituted
+* Meetings are held, things are decided and nobody takes notes
+
+### _What are some objectives that could help fix these issue?_
+
+The work product of the endeavor should be accessible to all members. And it should be:
+
+* Free as in beer - little or no monetary cost to access
+* Free as in liberty - Creative Commons license - do what you want with the data
+* Free as in ticket - location/ distance is not an issue - ubiquitous availability implies global asynchronous Internet availability. Anybody in the world - members of the project and members of the public at-large - has access
+* Free as in time - asynchronous communication - no need for face to face - synchronicity is not an issue
+* Free as in Get-out-of-jail-free - make changes, hack and fiddle without punishment
+
+### _What are some of the things that happen when people and their endeavours are highly accessible?_
+
+### Comment
+
+The average endeavor in 2013 uses email, transfers documents electronically and may even share a calendar.
+
+A fully-performing in terms of technology endeavor runs circles around the average endeavor in terms of speed, productivity and quality.
+
+Trying to explain to one of the types the vagaries of the other type is beyond my skill set.
+
+In the fully performing endeavour everybody can know anything about the organization in seconds. The knowledge of the organization is accessible to all. And all have the opportunity to add and ameliorate the knowledge. This is second nature to the participants. This is all regardless of time or location.  If an unfamiliar technology is required for some aspect, the participants acquire the skill set to operate the new tool in a matter of days.
+
+Preserving knowledge is the enemy. It's about growing knowledge, making it self-repairing, allowing it to plant seeds.
+
+It's about performing the knowledge. The knowledge is the script. But much of what we understand about that script can only be understood when the script is performed.
+
+Knowledge is the DNA. Reality is the baby.
+
+
+
+## _What does it mean when we say an organizrion should be useful?_
+
+
+
+### Context / Nature of the Problem
+
+Much of what people do is not particularly productive - watching TV comes to mind.
+
+Stuff one has learned, books one has read are so easy to forget. Doing hard things well takes lots of practice. People mindlessly repeat. People don't actually listen to each other. People don't end up building a common collective agreed understanding. People leave stuff unfinished. There's never enough time. Or people finish stuff but then it breaks. Keeping track of things is not easy.
+
+The essence is: How to get a really complicated thing done that needs help from a lot of people - and it must be done in a matter of weeks?
+
+Can a philosophical thought alter a significant number of people's daily behavior? The thing is a prisoner of the educated or moneyed classes? if you look at it from a certain point of view, it makes no sense.
+
+### Objectives
+
+Collectively Produced Documents / Instruments - Examples US Constitution, the periodic table of elements, Wikipedia, the Linux operating system, Google Seach results, ISO/W3C standards, Differential Calculus, the layout of the controls in a car, lawyers and legal systems.
+
+Ongoing editions, collectively edited ( not just peer reviewed but peer-written )
+
+If an endeavor is to make a difference, then what it accomplishes must be useful and make a measurable difference in people's lives.
+
+The topic covers so much, it should be of assistance across disciplines.
+
+The endeavor should towards usability. With hope, at least a little of the work product of the endeavor useful to almost anybody
+by the ultra-erudite
+by the texting teen
+by ordinary people tools in order to help decide stuff
+
+
+### Solutions/Tools
+
+There are two use cases:
+
+* usability for members of the endeavor
+* usability for members of the public
+
+For both of you there should be useful outcomes including the following thoughts:
+
+* There are ways of doing things - based on templates, cheat sheets or 'jigs'
+* There is project management
+* There are available tasks for a variety of skill sets
+* There is a spreadsheet for this.
+* There is an ontology and handy places to store things
+* There is a glossary, wiki or encyclopedia
+
+And, of course, "There's a method to his madness". The method is not mere repetition but a rehearsal for a leap forward.
+
+### Comments
+
+If, perhaps, the section on accessibility relates to the behavior aspect of a web page ( the JavaScript) then this section refers to the content (HTML) and the following section on style (CSS).
+
+The content should be as if it were part of your brain but kept/stored/safeguarded outside of your brain until it is needed. See David Allen, GTD and writing things down.
+
+
+
+## _Can we be Delightful?_
+
+### Context / Nature of the Problem
+
+Hard work without reward is not enjoyable. Small endeavors generally have little or no money to offer as reward. The work you do is not recognized, remembered or rewarded.  You are not sure about what you should be doing. If you want to do something that is not mindless but mindful, what is the mindful part?The work was done but it was not elegant or satisfying. I ate too fast and I am still hungry.
+
+### Objectives
+
+Doing fun things together
+
+People should be able to satisfy their need to create beautiful, valuable things
+
+Methods beyond money as compensation must be developed
+
+Prodding for value while de-mystifying / opening up the black boxes out of the love, delight of doing so
+de-mystifying
+defining
+adding value is adding meaning
+
+### Solutions/Tools
+
+* Meet-ups, get-togethers and wonderful parties
+* Make certain that work is resume-able
+	* People can have assigned tasks
+	* Good works are recorded for posterity.
+	* Interesting work is lauded.
+* People can do stuff and actually receive feedback
+* Members are invited to speak, contribute elsewhere
+* Working on the endeavor is one of your happy places
+* Rituals? Such as dining together? singing?
+
+### Comments
+
+If you divide things up in terms of who, what, when where and why, then this is the why part.
+This is the part about value, warmth, happiness and fulfillment.
+
+On the other hand, this is also the part that says "I will not rest until it is done" or
+"I will give up my theory when you take it out of my cold dead hands."
+

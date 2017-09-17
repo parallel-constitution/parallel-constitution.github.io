@@ -11,6 +11,6 @@
 
 	defaults.repository = "parallel-constitution.github.io";
 
-	defaults.folder = '';
+	defaults.folder = 'parallel-constitution.github.io/blob/master';
 
 //	defaults.url = 'README.md';

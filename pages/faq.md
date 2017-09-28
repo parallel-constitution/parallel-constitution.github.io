@@ -122,7 +122,7 @@ _Theo ~ 2017-07-04: I look forward to expanding this section and turning into a 
 * https://en.wikipedia.org/wiki/Special:WhatLinksHere/Fundamental_rights
 
 
-### _What is [self determination]( self-determination )?_
+### _What is [self determination]( https://en.wikipedia.org/wiki/Self-determination )?_
 
 > The right of people to self-determination is a cardinal principle in modern international law (commonly regarded as a jus cogens rule), binding, as such, on the United Nations as authoritative interpretation of the Charter’s norms.[1][2] It states that a people, based on respect for the principle of equal rights and fair equality of opportunity, have the right to freely choose their sovereignty and international political status with no interference
 

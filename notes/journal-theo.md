@@ -8,6 +8,21 @@ Theo's Journal
 ## Change Log
 
 
+## 2017-10-12 ~ 
+
+From blog post
+
+The formatting of the text on the home page has been cleaned up.
+
+The Contributors page page links and icons have been merged together.
+
+In general the site is beginning to fulfill its ambition: Documenting the activities, resources and output of the effort in 2013 to draft an alternative constitution for Egypt following the Arab Spring of 2011.
+
+Deleted from WordPress site
+
+What is a right and what should or should not be a right is an ongoing important topic of interest in my life. I am very pleased to be able to help a group of people who have gone through the process of drafting a constitution of rights during a dramatic, traumatic and enigmatic  period in their country's history.</blockquote>
+
+
 
 ## 2017-09-17
 

@@ -1,5 +1,5 @@
-Theo's Journal
-====
+# Theo's Journal
+
 
 
 ## To-Do List
@@ -7,8 +7,170 @@ Theo's Journal
 
 ## Change Log
 
+### 2018-03-24 ~
 
-## 2017-10-12 ~ 
+SUPREME COURT NOTEBOOK: Sotomayor Rapped for Surfing the Web
+* <https://www.nytimes.com/aponline/2018/03/22/us/politics/ap-us-supreme-court-notebook.html>
+
+https://www.vox.com/conversations/2017/3/21/14990732/neil-gorsuch-scalia-supreme-court-nomination-strict-constructionism
+
+Originalism vs strict constructionist
+https://uselectionatlas.org/FORUM/index.php?topic=211329.0
+
+## 2018-03-12
+
+
+### Wikipedia left or right?
+
+*  Wired [Welcome to the Wikipedia of the Alt-Right]( https://www.wired.com/story/welcome-to-the-wikipedia-of-the-alt-right/ )
+* Conservapedia [Examples of Bias in Wikipedia]( http://www.conservapedia.com/Examples_of_Bias_in_Wikipedia )
+* <https://hbswk.hbs.edu/item/is-wikipedia-more-biased-than-encyclopdia-britannica>
+> Perhaps the most interesting finding of Zhu and Greenstein's research is that the more times an article is revised on Wikipedia, the less bias it is likely to show—directly contradicting the theory that ideological groups might self-select over time into increasingly biased camps.
+
+> "The data suggests that people are engaging in conversation with each other online, even though they have different points of view," says Zhu. "The crowd does exhibit some wisdom, so to speak, to self-correct bias."
+
+* [Do Experts or Collective Intelligence Write with More Bias? Evidence from Encyclopædia Britannica and Wikipedia]( https://hbswk.hbs.edu/item/do-experts-or-collective-intelligence-write-with-more-bias-evidence-from-encyclopdia-britannica-and-wikipedia )
+> Using a matched sample of pairs of articles from Britannica and Wikipedia, we show that, overall, Wikipedia articles are more slanted towards Democrat than Britannica articles, as well as more biased. Slanted Wikipedia articles tend to become less biased than Britannica articles on the same topic as they become substantially revised, and the bias on a per word basis hardly differs between the sources.
+
+* <https://en.wikipedia.org/wiki/Criticism_of_Wikipedia>
+* <http://wikipediocracy.com/2015/08/16/a-compendium-of-wikipedia-criticism/>
+* <http://geography.oii.ox.ac.uk/?page=the-geographically-uneven-coverage-of-wikipedia>
+* <https://www.washingtonpost.com/news/wonk/wp/2016/10/25/somethings-terribly-wrong-with-the-internet-and-wikipedia-might-be-able-to-fix-it/?utm_term=.c2d48a0a762b>
+* <http://www.cracked.com/personal-experiences-2344-5-ugly-realities-wikipedia-i-learned-as-admin.html>
+* <https://en.wikipedia.org/wiki/Wikipedia#Coverage_of_topics_and_systemic_bias>
+* [Wikipedia seeks women to balance its 'geeky' editors]( https://www.independent.co.uk/life-style/gadgets-and-tech/news/wikipedia-seeks-women-to-balance-its-geeky-editors-2333605.html )
+
+> He[Jimmy Wales] said that research the company had done suggested that nine in 10 of its contributors are male and that the average age was 26. A higher percentage of them hold PhDs than does the public "so I don't think they'd mind me calling them geeks", he added.
+
+### Bias
+
+More education / more left
+
+* <http://www.people-press.org/2016/04/26/a-wider-ideological-gap-between-more-and-less-educated-adults/>
+
+
+
+### Alt-right
+
+* <https://en.wikipedia.org/wiki/Alt-right>
+* <https://altright.com/>
+* <http://www.breitbart.com/tech/2016/03/29/an-establishment-conservatives-guide-to-the-alt-right/>
+* <http://www.conservapedia.com/Alt-right>
+
+### Conservatives
+
+#### Ted Cruz
+
+* <https://en.wikipedia.org/wiki/Ted_Cruz>
+* <http://www.conservapedia.com/Ted_Cruz>
+
+#### Ben Shapiro
+
+* <https://rationalwiki.org/wiki/Ben_Shapiro>
+* <https://en.wikipedia.org/wiki/Ben_Shapiro>
+* <http://www.conservapedia.com/Ben_Shapiro>
+
+
+#### Mark Levin
+
+* <https://en.wikipedia.org/wiki/Mark_Levin>
+* <http://www.conservapedia.com/Mark_Levin>
+
+
+### John Lott
+
+* <https://en.wikipedia.org/wiki/John_Lott>
+	* Lott is the gold standard on gun related statistics, analysis, and policy, having done a significant amount of his research while in academia.
+
+### Rand Paul
+
+* <https://en.wikipedia.org/wiki/Rand_Paul>
+* <http://www.conservapedia.com/Rand_Paul>
+
+
+
+### SCOTUS 'strict constructionist' = none
+
+#### Scalia
+* <https://en.wikipedia.org/wiki/Antonin_Scalia>
+* <http://www.conservapedia.com/Antonin_Scalia>
+	* Some mistake Justice Scalia's philosophy as "strict constructionism." But Justice Scalia was not a strict constructionist
+* https://scholarship.law.campbell.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1317&context=clr
+* https://scholarship.law.nd.edu/cgi/viewcontent.cgi?article=1717&context=ndlr
+* http://nymag.com/news/features/antonin-scalia-2013-10/index3.html
+	* textualist and originalist but not strict construcytionist
+
+2018-03-24
+* <https://www.nytimes.com/2018/03/15/opinion/justice-antonin-scalia-legacy.html>
+	* When faced with interpreting an act of Congress, his colleagues evidently now feel free to invoke legislative history — committee reports, floor debates and the like — without tiptoeing over the hot coals of his scorn.
+	* The text is the law,” he would say — the text of the statute and nothing but the text. Anything else was “a kind of ventriloquism,” he once wrote in dissent because “words appear to come from Congress’s mouth” that might actually have been put there by staff aides, lobbyists or who knows who else.
+* <https://www.nytimes.com/interactive/2016/12/21/magazine/the-lives-they-lived-antonin-scalia.html>
+
+
+#### Clarence Thomas
+* https://en.wikipedia.org/wiki/Clarence_Thomas
+* <http://www.conservapedia.com/Clarence_Thomas>
+* https://rationalwiki.org/wiki/Clarence_Thomas
+
+
+#### Samuel Alito
+
+* https://en.wikipedia.org/wiki/Samuel_Alito
+* <http://www.conservapedia.com/Samuel_Alito>
+
+#### Neil Gorsuch
+
+* https://en.wikipedia.org/wiki/Neil_Gorsuch
+* <http://www.conservapedia.com/Neil_Gorsuch>
+* https://www.vox.com/conversations/2017/3/21/14990732/neil-gorsuch-scalia-supreme-court-nomination-strict-constructionism
+
+
+
+#### https://en.wikipedia.org/wiki/Originalism
+#### https://en.wikipedia.org/wiki/Textualism
+
+
+### 2018-03-07
+
+#### strict constructionist
+
+* <https://www.merriam-webster.com/dictionary/strict%20constructionist>
+
+> one who favors giving a narrow conservative construction of a given document or instrument;
+> specifically : one who favors a strict construction of the Constitution of the United States
+
+* <https://en.wikipedia.org/wiki/Strict_constructionism>
+	* This article feels as if the authors oppoe the idea they write about
+* <https://en.wikipedia.org/wiki/Textualism>
+* <https://en.wikipedia.org/wiki/Constitutionalism>
+* <https://en.wikisource.org/wiki/The_New_International_Encyclop%C3%A6dia/Strict_Constructionists>
+	* Interesting to consider how the parties seemed to have flipped positions
+* <https://saylordotorg.github.io/text_the-legal-and-ethical-environment-of-business/s05-02-activists-and-strict-construct.html>
+
+Of possible but lesser interest
+
+* <http://ordinary-gentlemen.com/2015/04/08/the-historical-case-for-strict-construction-a-structural-interpretation-part-ii/>
+* <https://www.americanthinker.com/articles/2010/11/strict_constructionist_or_stri.html>
+
+I cannot seem to find a list of people who might be considered famous strict constructionist.
+
+I cannot find a list of laws or enactments that are considered to be be guided by strict constructionism.
+
+
+## 2018-03-03
+
+A bunch of interesting stats in one article:
+
+https://www.vox.com/policy-and-politics/2018/2/21/17028930/gun-violence-us-statistics-charts
+
+And here's a Fox view of the issue:
+
+http://www.foxnews.com/opinion/2018/02/23/us-gun-control-advocates-exaggerate-benefits-australias-gun-restrictions.html
+
+
+
+
+## 2017-10-12
 
 From blog post
 
@@ -28,7 +190,7 @@ What is a right and what should or should not be a right is an ongoing important
 
 
 ### Draft of a home page
-What is the difference between right and wrong? How do you tell the difference between good and evil? 
+What is the difference between right and wrong? How do you tell the difference between good and evil?
 
 _Having odd numbers is a more elegant writing style. What is is a good third sentence?_
 
@@ -41,9 +203,9 @@ There have been, are, and will be many suitable, just and good answers to these 
 Parallel Constitution is a place where you may find, compare and contrast the many different questions and answers. You may use this input to help you determine a good response for the questions of different eras, locations or social organizations.
 
 
-We may say that all the answers to the questions of good and evil contains elements of good and evil. And, on the whole, this is good. It would be sad if we all agreed on everything. 
+We may say that all the answers to the questions of good and evil contains elements of good and evil. And, on the whole, this is good. It would be sad if we all agreed on everything.
 
-Welcome to a place that agrees on disagreeing in the nicest, smartest, most knowledgeable ways. Welcome to Parallel Constitution. 
+Welcome to a place that agrees on disagreeing in the nicest, smartest, most knowledgeable ways. Welcome to Parallel Constitution.
 
 
 #### Examples
@@ -69,7 +231,7 @@ Egypt Parallel Constitution, 2013
 
 ### 2017-09-17
 
-* Add to FAQ 
+* Add to FAQ
 * Fix Edit this page link
 * Add links to links page
 
@@ -118,7 +280,7 @@ Everyone shall have the right to use their five senses however they wish
 Eat whatever food. consume freely. choose medicines whatever
 
 ### Determine their output
-Like expression but physical. 
+Like expression but physical.
 Freedom to use your muscles as you please: to kick a ball, bake a cake or write a letter
 
 ### time? money?
@@ -129,7 +291,7 @@ What about bearing arms?
 
 
 
-## Collective 
+## Collective
 
 
 Require two or more people in order to have meaning
@@ -142,10 +304,10 @@ All peoples have the right of self-determination.
 Everyone shall have the right to recognition everywhere as a person before the law.
 
 ### Assembly
-The right of peaceful assembly shall be recognized. 
+The right of peaceful assembly shall be recognized.
 
 ### Association
-Everyone shall have the right to freedom of association with others, 
+Everyone shall have the right to freedom of association with others,
 including the right to form and join trade unions for the protection of his interests.
 
 ### Marriage
@@ -202,7 +364,7 @@ Their number is huge
 	* Wikipedia is written from a neutral point of view
 		* All articles must strive for verifiable accuracy, citing reliable, authoritative sources,
 	* Wikipedia is free content that anyone can use, edit, and distribute
-	* Wikipedia's editors should treat each other with respect and civility	
+	* Wikipedia's editors should treat each other with respect and civility
 	* Wikipedia has no firm rules
 
 

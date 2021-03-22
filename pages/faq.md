@@ -7,7 +7,7 @@
 
 What is the difference between right and wrong? How do you tell the difference between good and evil? Are you positive or negative?
 
-People have been asking these questions - and seeking the answers for thousands of years. 
+People have been asking these questions - and seeking the answers for thousands of years.
 
 Difficulties with finding the answers include:
 
@@ -15,7 +15,7 @@ Difficulties with finding the answers include:
 * **Value/Quality**. Because of phones, computers and the Internet we are exposed to more data which gives us more insights which in turn makes everything more complicated
 * **Time**. Because of improved scheduling, greater need to work harder for more money or faster advancement, we may have less time just to think things over
 
-The good new is that people have also been discussing, agreeing and recording responses to the questions we tend to ask for many thousands of years. Yet even with all this good advice there are issues. 
+The good new is that people have also been discussing, agreeing and recording responses to the questions we tend to ask for many thousands of years. Yet even with all this good advice there are issues.
 
 * **People do not always agree**. It would be nice if you could ask questions and receive good answers. But even if you concentrate on a tiny highly homogeneous community in a remote location you are still highly likely to be confronted by disparate views.
 * **People haves biases**. if you survey a million people with a common set of question you are likely to receive different response based on wealth education and identity.
@@ -27,7 +27,7 @@ So are right and wrong totally flexible or relative concepts?  Are there no ways
 
 Of course there are. It's that these answers are not as easy as they should be to access - yet. There are constitutions, agreements, systems of laws and regulations in operation throughout the world that define what and is not acceptable behavior for a particular milieu.
 
-Almost all of these documents are based scholarly efforts that have citations and are well referenced. For the most part they are based on the collective agreement and consensus of large numbers of people. 
+Almost all of these documents are based scholarly efforts that have citations and are well referenced. For the most part they are based on the collective agreement and consensus of large numbers of people.
 
 These documents provide clear, considered and acceptable answers for many of the difficult question to life.
 
@@ -35,6 +35,7 @@ The reason that this wisdom is not used enough
 
 * Difficult to access
 * Difficult to compare and contrast
+
 
 ### _What is the overall strategy?_
 
@@ -52,7 +53,7 @@ We want to help by providing:
 
 There are many, many thousands of constitutions, articles of agreements, charters and so on. Trying to catalog all these would take much time and effort.
 
-All of the above documents follow very similar patterns. The number of distinct items may only number in the hundreds or low thousands 
+All of the above documents follow very similar patterns. The number of distinct items may only number in the hundreds or low thousands
 
 Our strategy will be to start with two or three efforts we have deemed as worthy starting points. We will triage and parse the documents extensively and do our best to identify the common elements. Once a basic list of components is identified, then a larger number of constitutions will be examined.
 
@@ -124,7 +125,7 @@ _Theo ~ 2017-07-04: I look forward to expanding this section and turning into a 
 
 ### _What is [self determination]( https://en.wikipedia.org/wiki/Self-determination )?_
 
-> The right of people to self-determination is a cardinal principle in modern international law (commonly regarded as a jus cogens rule), binding, as such, on the United Nations as authoritative interpretation of the Charter’s norms.[1][2] It states that a people, based on respect for the principle of equal rights and fair equality of opportunity, have the right to freely choose their sovereignty and international political status with no interference
+> The right of people to self-determination is a cardinal principle in modern international law (commonly regarded as a _jus cogens_ rule), binding, as such, on the United Nations as authoritative interpretation of the Charter’s norms. It states that a people, based on respect for the principle of equal rights and fair equality of opportunity, have the right to freely choose their sovereignty and international political status with no interference
 
 > By extension the term self-determination has come to mean the free choice of one's own acts without external compulsion
 
@@ -136,7 +137,7 @@ _Theo ~ 2017-07-04: I look forward to expanding this section and turning into a 
 
 ### _What are [civil liberties]( https://en.wikipedia.org/wiki/Civil_liberties )?_
 
-> Civil liberties or personal freedoms are personal guarantees and freedoms that the government cannot abridge, either by law or by judicial interpretation, without due process. Though the scope of the term differs between countries, civil liberties may include the freedom from torture, freedom from forced disappearance, freedom of conscience, freedom of press, freedom of religion, freedom of expression, freedom of assembly, the right to security and liberty, freedom of speech, the right to privacy, the right to equal treatment under the law and due process, the right to a fair trial, and the right to life. Other civil liberties include the right to own property, the right to defend oneself, and the right to bodily integrity. Within the distinctions between civil liberties and other types of liberty, distinctions exist between positive liberty/positive rights and negative 
+> Civil liberties or personal freedoms are personal guarantees and freedoms that the government cannot abridge, either by law or by judicial interpretation, without due process. Though the scope of the term differs between countries, civil liberties may include the freedom from torture, freedom from forced disappearance, freedom of conscience, freedom of press, freedom of religion, freedom of expression, freedom of assembly, the right to security and liberty, freedom of speech, the right to privacy, the right to equal treatment under the law and due process, the right to a fair trial, and the right to life. Other civil liberties include the right to own property, the right to defend oneself, and the right to bodily integrity. Within the distinctions between civil liberties and other types of liberty, distinctions exist between positive liberty/positive rights and negative
 
 
 
@@ -241,7 +242,7 @@ _The following questions outline a proposed strategy of using available tools to
 
 > Benefits of a VCS that is [distributed revision control system (DRCS)]( Distributed revision control system (DRCS) ) include:
 
-> Distributed revision control takes a peer-to-peer approach to version control, as opposed to the client-server approach of centralized systems. Rather than a single, central repository on which clients synchronize, each peer's working copy of the codebase is a complete repository. 
+> Distributed revision control takes a peer-to-peer approach to version control, as opposed to the client-server approach of centralized systems. Rather than a single, central repository on which clients synchronize, each peer's working copy of the codebase is a complete repository.
 
 > Distributed revision control system synchronizes repositories by exchanging patches (sets of changes) from peer to peer. This results in some important differences from a centralized system:
 
@@ -337,9 +338,9 @@ _The following questions outline a proposed strategy of using available tools to
 > The benefits of using FOSS can include:
 
 >* decreasing software costs
->*increasing security and stability (especially in regard to malware), 
+>*increasing security and stability (especially in regard to malware),
 >* protecting privacy
->* and giving users more control over their own hardware. 
+>* and giving users more control over their own hardware.
 
 > Free, open-source operating systems such as Linux and descendents of BSD are widely utilized today, powering millions of servers, desktops, smartphones (e.g. Android), and other devices.[4][5] Free software licenses and open-source licenses are used by many software packages. The open-source software movement is an online social movement behind widespread production and adoption of FOSS.
 
@@ -387,7 +388,7 @@ Online Markdown editors include
 
 There are many ways, Here's one of current favorites:
 
-* [Wikipedia: freeCodeCamp]( https://en.wikipedia.org/wiki/FreeCodeCamp ) 
+* [Wikipedia: freeCodeCamp]( https://en.wikipedia.org/wiki/FreeCodeCamp )
 * Web site: [freeCodeCamp]( https://www.freecodecamp.org/ )
 
 _More on this question at a later date._
@@ -403,11 +404,11 @@ The goal of this endeavor is to help small groups of people to accomplish amazin
 The methods to achieve this purpose should be:
 
 1. accessible
-2. useful and 
+2. useful and
 3. delightful
 
 
-### _What are some the typical things that happen in orgnizations that create distance people and productivity?_
+### _What are some the typical things that happen in organizations that create well-distanced people and productivity?_
 
 
 * Research data is lost.
@@ -432,7 +433,7 @@ The work product of the endeavor should be accessible to all members. And it sho
 * Free as in time - asynchronous communication - no need for face to face - synchronicity is not an issue
 * Free as in Get-out-of-jail-free - make changes, hack and fiddle without punishment
 
-### _What are some of the things that happen when people and their endeavours are highly accessible?_
+### _What are some of the things that happen when people and their endeavors are highly accessible?_
 
 ### Comment
 
@@ -451,9 +452,7 @@ It's about performing the knowledge. The knowledge is the script. But much of wh
 Knowledge is the DNA. Reality is the baby.
 
 
-
-## _What does it mean when we say an organizrion should be useful?_
-
+## _What does it mean when we say an organization should be useful?_
 
 
 ### Context / Nature of the Problem
@@ -507,12 +506,11 @@ If, perhaps, the section on accessibility relates to the behavior aspect of a we
 The content should be as if it were part of your brain but kept/stored/safeguarded outside of your brain until it is needed. See David Allen, GTD and writing things down.
 
 
-
-## _Can we be Delightful?_
+## _Can we be delightful?_
 
 ### Context / Nature of the Problem
 
-Hard work without reward is not enjoyable. Small endeavors generally have little or no money to offer as reward. The work you do is not recognized, remembered or rewarded.  You are not sure about what you should be doing. If you want to do something that is not mindless but mindful, what is the mindful part?The work was done but it was not elegant or satisfying. I ate too fast and I am still hungry.
+Hard work without reward is not enjoyable. Small endeavors generally have little or no money to offer as reward. The work you do is not recognized, remembered or rewarded.  You are not sure about what you should be doing. If you want to do something that is not mindless but mindful, what is the mindful part? The work was done but it was not elegant or satisfying. I ate too fast and I am still hungry.
 
 ### Objectives
 

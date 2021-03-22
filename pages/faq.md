@@ -452,7 +452,7 @@ It's about performing the knowledge. The knowledge is the script. But much of wh
 Knowledge is the DNA. Reality is the baby.
 
 
-## _What does it mean when we say an organization should be useful?_
+### _What does it mean when we say an organization should be useful?_
 
 
 ### Context / Nature of the Problem
@@ -506,7 +506,7 @@ If, perhaps, the section on accessibility relates to the behavior aspect of a we
 The content should be as if it were part of your brain but kept/stored/safeguarded outside of your brain until it is needed. See David Allen, GTD and writing things down.
 
 
-## _Can we be delightful?_
+### _Can we be delightful?_
 
 ### Context / Nature of the Problem
 
